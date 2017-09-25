@@ -4,12 +4,12 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
     <string name="hint_regex_input">Regex Expression</string>
     <string name="txt_texto_hint">Text</string>
     <string name="txt_resultado_hint">Result</string>
-    <string name="actualizando">loading…</string>
-    <string name="coincidencias">matches</string>
+    <string name="actualizando">загрузка…</string>
+    <string name="coincidencias">совпадения</string>
     <plurals name="coincidencias">
         <item quantity="one">%d match</item>
         <item quantity="other">%d matches</item>
@@ -18,11 +18,11 @@
         <item quantity="one">%d capturing group</item>
         <item quantity="other">%d capturing groups</item>
     </plurals>
-    <string name="txt_busqueda_title">Search</string>
-    <string name="txt_resultado_title">Result</string>
-    <string name="action_bottom_replace">Replace</string>
-    <string name="action_bottom_explain">Explain</string>
-    <string name="txt_replace_title">Replace</string>
+    <string name="txt_busqueda_title">Поиск</string>
+    <string name="txt_resultado_title">Результат</string>
+    <string name="action_bottom_replace">Заменить</string>
+    <string name="action_bottom_explain">Объяснить</string>
+    <string name="txt_replace_title">Заменить</string>
     <string name="edit_text_replace_regex">Regex expression to replace</string>
     <string name="capturing_groups">capturing groups</string>
     <string name="menu_subtitle_navbar">Options</string>

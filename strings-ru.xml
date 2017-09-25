@@ -1,37 +1,37 @@
 <resources>
     <string name="app_name">RegexH</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
 
     <string name="action_settings">Настройки</string>
-    <string name="hint_regex_input">Regex Expression</string>
-    <string name="txt_texto_hint">Text</string>
-    <string name="txt_resultado_hint">Result</string>
+    <string name="hint_regex_input">Регулярное выражение</string>
+    <string name="txt_texto_hint">Текст</string>
+    <string name="txt_resultado_hint">Результат</string>
     <string name="actualizando">загрузка…</string>
     <string name="coincidencias">совпадения</string>
     <plurals name="coincidencias">
-        <item quantity="one">%d match</item>
-        <item quantity="other">%d matches</item>
+        <item quantity="one">%d совпадение</item>
+        <item quantity="other">%d совпадений</item>
     </plurals>
     <plurals name="capturing_groups">
-        <item quantity="one">%d capturing group</item>
-        <item quantity="other">%d capturing groups</item>
+        <item quantity="one">%d группа охвата</item>
+        <item quantity="other">%d группы охвата</item>
     </plurals>
     <string name="txt_busqueda_title">Поиск</string>
     <string name="txt_resultado_title">Результат</string>
     <string name="action_bottom_replace">Заменить</string>
     <string name="action_bottom_explain">Объяснить</string>
     <string name="txt_replace_title">Заменить</string>
-    <string name="edit_text_replace_regex">Regex expression to replace</string>
-    <string name="capturing_groups">capturing groups</string>
-    <string name="menu_subtitle_navbar">Options</string>
-    <string name="menu_search_navbar">Search</string>
-    <string name="menu_build_navbar">Build</string>
-    <string name="menu_default_terms_navbar">Default Terms</string>
-    <string name="menu_manual_navbar">Cheatsheet</string>
-    <string name="regex_explain_word_name">Word</string>
-    <string name="regex_explain_character_name">Character</string>
+    <string name="edit_text_replace_regex">Регулярное выражение для замены</string>
+    <string name="capturing_groups">группы охвата</string>
+    <string name="menu_subtitle_navbar">Опции</string>
+    <string name="menu_search_navbar">Поиск</string>
+    <string name="menu_build_navbar">Создать</string>
+    <string name="menu_default_terms_navbar">Условия по умолчанию</string>
+    <string name="menu_manual_navbar">Таблица выражений</string>
+    <string name="regex_explain_word_name">Слово</string>
+    <string name="regex_explain_character_name">Символ</string>
     <string name="regex_explain_character_description1">Match with the letter</string>
     <string name="regex_explain_character_description2">ASCII code</string>
     <string name="regex_explain_word_description">Match with any character(alphanumeric)</string>

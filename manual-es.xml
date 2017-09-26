@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manual>
+
+    <item search="c">
+        <p>La expresión más sencilla es la de buscar una letra concreta o una palabra dentro de un texto. Funciona como en cualquier programa la opción “Buscar”.
+        </p>
+        <p>Por ejemplo, si buscas la letra “d”, la expresión regular sería buscar esta misma letra “d”. Si buscamos la palabra “hola”, la expresión sería “hola”. Tan sencillo como eso.
+        </p>
+    </item>
+    <item search=".">
+        <p>El punto en regex define un carácter cualquier(número, letra, carácter especial).</p>
+
+        <p>Si buscamos encontrar algún carácter cualquiera seguido de la letra a, por ejemplo “5a”,”da”,”@a” el patrón sería el siguiente “.a”.</p>
+
+        <p>Esta expresión da mucho a otras, como los grupos o cuantificadores. Por ejemplo si queremos encontrar 5 caracteres cualquiera, podríamos usar “.{5}”.</p>
+    </item>
+    <item>
+        <searches>
+            <search element="\\w"></search>
+            <search element="\\d"></search>
+            <search element="\\s"></search>
+        </searches>
+        <p>Las expresiones regulares “\w”,”\d”,”\s” define una letra cualquiera, un dígito o un espacio respectivamente.</p>
+
+        <p>Al igual que el punto se puede definir con otras expresiones(grupos, cuantificadores). Por ejemplo para encontrar dos letras seguidas de un espacio y un número (ej: “aB 3”) podríamos usar este regex \w{2}\s\d</p>
+
+    </item>
+
+    <item>
+        <searches>
+            <search element="\\W"></search>
+            <search element="\\D"></search>
+            <search element="\\S"></search>
+        </searches>
+        <p>Las expresiones regulares “\W”,”\D”,”\S” define un patrón en el que NO se encuentra una letra, un dígito o un espacio respectivamente.</p>
+
+        <p>Es decir funciona de la siguiente manera, si buscamos cualquier carácter que no sea espacio podríamos usar “\S”.</p>
+
+        <p>Por ejemplo vamos a buscar el texto “5Q@.”(cualquier carácter sin espacio), podríamos usar \S{4}</p>
+
+    </item>
+
+    <item search="[abc]">
+        <p>Esta expresión encuentra cualquiera coincidencia que este dentro del conjunto.</p>
+        <p>De esta manera, la expresión [bcd] encontrá los textos “b”,”c” o “d”.</p>
+
+        <p>También se pueden usar expresiones dentro, por ejemplo [\w\d-@] encontrará cualquier carácter alfanumérico, un guión o el símbolo “@”.</p>
+
+        <p>Al igual que las expresiones anteriores se pueden agrupar o usar cuantificadores.</p>
+
+        <p>Un uso especial de los conjuntos son los rangos, permite especificar el número o letra desde la que se empieza y la última. Por ejemplo [A-Z] encontraría cualquier letra entre la “A” y la “Z” mayúscula.(Para minúscula se puede usar [a-z]. Se puede usar con números por ejemplo [3-5] buscaría los números del 3 al 5.</p>
+
+        <p>Por ejemplo para buscar las letras entre “r” y “u” y entre “c” y “e” se podría usar “[r-uc-e]”.</p>
+
+    </item>
+    <item search="[^abc]">
+        <p>Es la negación de un conjunto, es decir si [abc] encontraba cualquier coincidencia con “a”,”b” o “c”. El conjunto negado [^abc] encontrará cualquier carácter que no sea “a”,”b”,”c”.</p>
+
+        <p>Todas las reglas de conjuntos funcionan en la negación.</p>
+
+    </item>
+    <item>
+        <searches>
+            <search element="^"></search>
+            <search element="$"></search>
+        </searches>
+        <p>Las expresiones “^” y “$” sirven para marcar el principio y final de la cadena. Por ejemplo buscando el patrón “a” encontrará todas las letras “a” en el texto, sin embargo buscando “a$” encontrará la última letra de la cadena, si ésta es a.</p>
+
+        <p>“5a”(cadena que empiece por número)-> “^\d”</p>
+    </item>
+
+    <item search="\\.">
+        <p>Cuando queremos encontrar un carácter reservado por regex, usamos el escaped carácter “\”.</p>
+
+        <p>Por ejemplo si queremos encontrar un punto al final del texto, no podemos usar “.$” ya que el punto representa cualquier carácter. Así que usamos el Escaped carácter, de esta manera quedaría así “\.$”.</p>
+
+        <p>Por ejemplo si quiero encontrar el texto “\w” utilizaría la expresión “\\w”.</p>
+
+    </item>
+    <item search="(abc)">
+        <p>Se permite agrupar las coincidencias para opciones de reemplazo u otras utilidades.</p>
+
+        <p>Por ejemplo si usamos esta expresión “^(\w).+” buscará cualquier cadena que empiece por una letra, pero capturando la letra inicial.</p>
+
+        <p>Si quisiéramos obtenerla, usando reemplazar con la expresión “$1” nos devolvería la letra inicial.</p>
+
+        <p>El carácter +,* y ? funcionan como cuantificadores 1 o más, 0 o más, 0 o 1 respectivamente y se puede usar con el grupo, por ejemplo (\w\d)?a, coincide si encuentra la “a” y/o si tiene una letra o un número delante.</p>
+
+
+    </item>
+    <item>
+        <searches>
+            <search element="(?:abc)"></search>
+            <search element="(?=abc)"></search>
+            <search element="(?!abc)"></search>
+        </searches>
+        <p>(?:abc) es un grupo no capturado, permite utilizar cuantificadores a un grupo entero sin necesidad de que estos queden capturados como pasaría en un grupo.</p>
+
+        <p>(?=abc) La coincidencia anterior solo se cumple si este grupo se cumple. Por ejemplo la expresión \w+(?=\d+) encuentra las letras sólo si le siguen números.</p>
+
+        <p>(?!abc) Negación del grupo especial anterior, es decir solo se cumple la coincidencia anterior si esta no se cumple.</p>
+
+    </item>
+
+    <item search="|">
+        <p>Actúa como un boolean, por ejemplo (hola|adios) captura las palabras “hola” o “adios”.</p>
+
+        <p>\w|\d captura o una letra o un número.</p>
+
+    </item>
+
+    <item search="\\u0036">
+        <p>Expresión que permite obtener un caracter por su código ascii.</p>
+        <p>Sigue la estructura uFFFF, siendo F números hexadecimales válidos (0-9 y A-F)</p>
+        <p>En este caso el número 26 en hexadecimal es el 54 en decimal</p>ç
+        <p>Capturará por tanto el carácter 4(ascii 54)</p>
+    </item>
+</manual>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manual>
+
+    <item search="c">
+        <p>The simplest expression is to look for a specific letter or word within a text. It works like in any program the option "Search".</p>
+        <p>For example, if you look for the letter "d", the regular expression would look for this same letter "d". If we look for the word "hello", the expression would be "hello". As simple as that.</p>
+    </item>
+    <item search=".">
+        <p>The point in regex defines any character (number, letter, special character).</p>
+
+        <p>If we look for any character followed by the letter a, for example "5a", "da", "@a" the pattern would be the following ".a".</p>
+
+        <p>This expression gives much to others, such as groups or quantifiers. For example if we want to find any 5 characters, we could use ".{5}".</p>
+    </item>
+    <item>
+        <searches>
+            <search element="\\w"></search>
+            <search element="\\d"></search>
+            <search element="\\s"></search>
+        </searches>
+        <p>The regular expressions "\w", "\d", "\s" define any letter, any digit or space respectively.</p>
+
+        <p>Like the point can be defined with other expressions (groups, quantifiers). For example to find two letters followed by a space and a number (eg "aB 3") we could use this regex "\w{2}\s\d"</p>
+
+    </item>
+
+    <item>
+        <searches>
+            <search element="\\W"></search>
+            <search element="\\D"></search>
+            <search element="\\S"></search>
+        </searches>
+        <p>The regular expressions "\W", "\D", "\S" define a pattern where a letter, a digit or a space, respectively, is NOT found.</p>
+
+        <p>That is to say it works as follows, if we look for any character other than space we could use "\S".</p>
+
+        <p>For example, let's look for the text "5Q@." (Any character with no space), we could use \S{4}.</p>
+
+    </item>
+
+    <item search="[abc]">
+        <p>This expression finds any match that is within the set.</p>
+        <p>In this way, the expression [bcd] finds the texts "b", "c" or "d".</p>
+
+        <p>You can also use expressions inside, for example [\w\d-@] you will find any alphanumeric character, hyphen or "@" symbol.</p>
+
+        <p>Like the previous expressions can be grouped or use quantifiers.</p>
+
+        <p>A special use of sets is the ranges, allows you to specify the number or letter from which you start and the last. For example [A-Z] would find any letter between the "A" and the "Z". (For lower case you can use [a-z].</p>
+
+        <p>For example, to search for letters between "r" and "u" and between "c" and "e" you could use "[r-uc-e]".</p>
+
+    </item>
+    <item search="[^abc]">
+        <p>It is the negation of a set, that is to say if [abc] found any coincidence with "a", "b" or "c". The negated set [^abc] will find any character other than "a", "b", "c".</p>
+
+        <p>All set rules work in denial.</p>
+
+    </item>
+    <item>
+        <searches>
+            <search element="^"></search>
+            <search element="$"></search>
+        </searches>
+        <p>The expressions "^" and "$" serve to mark the beginning and end of the string. For example, by looking for the pattern "a" you will find all the letters "a" in the text, however searching for "a $" will find the last letter of the string, if this is a.</p>
+
+        <p>"5a" (string beginning with number) -> "^\d"</p>
+    </item>
+
+    <item search="\\.">
+        <p>When we want to find a character reserved by regex, we use the escaped "\" character.</p>
+
+        <p>For example if we want to find a point at the end of the text, we can NOT use ". $" since the dot represents any character. So we used the Escaped character, this way it would look like "\.$".</p>
+
+        <p>For example if I want to find the text "\w" I would use the expression "\\w".</p>
+
+    </item>
+    <item search="(abc)">
+        <p>You can group the matches for replacement options or other utilities.</p>
+
+        <p>For example, if we use this expression "^(\w).+" Will look for any string that begins with a letter, but captures the initial letter.</p>
+
+        <p>If we wanted to get it, using replace with the expression "$1" would return the initial letter.</p>
+
+        <p>The +, *, and ? Function as quantifiers 1 or more, 0 or more, 0 or 1 respectively and can be used with the group, for example (\w\d)?a, match if it finds the "a" and/or if it has a letter or a number ahead.</p>
+
+
+    </item>
+    <item>
+        <searches>
+            <search element="(?:abc)"></search>
+            <search element="(?=abc)"></search>
+            <search element="(?!abc)"></search>
+        </searches>
+        <p>(?:abc) is an uncaught group, allows to use quantifiers to an entire group without the need for them to be captured as it would in a group.</p>
+
+        <p>(?=abc) The above match is only true if this group is met. For example, the expression \w+(?=\d+) finds the letters only if numbers follow.</p>
+
+        <p>(?!abc) Denial of the previous special group, ie only the previous match is fulfilled if this is not fulfilled.</p>
+
+    </item>
+
+    <item search="|">
+        <p>It acts as a boolean, for example (hi | goodbye) captures the words "hi" or "goodbye".</p>
+
+        <p>\w|\d capture or a letter or a number.</p>
+
+    </item>
+
+    <item search="\\u0036">
+        <p>Expression that allows you to get a character by its ascii code.</p>
+        <p>In the form uFFFF, where F is a valid hexadecimal number(0-9 and A-F)</p>
+        <p>In this case the number 26 in hexadecimal is 54 in decimal</p>ç
+        <p>It will capture character 4 (ascii 54)</p>
+    </item>
+</manual>

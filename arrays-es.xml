@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dataHelpLeft">
+        <item>Cuantificadores</item>
+        <item>. Cualquier Carácter</item>
+        <item>* Cero o más</item>
+        <item>+ Uno o más</item>
+        <item>\? Cero o uno</item>
+        <item>{n} n veces</item>
+        <item>{n,} n o más</item>
+        <item>{n,m} n a m times</item>
+        <item>Carácteres</item>
+        <item>\\d Dígito</item>
+        <item>\\D No Dígito</item>
+        <item>\\w Letra</item>
+        <item>\\W No Letra</item>
+        <item>\\s Espacio en blanco</item>
+        <item>\\S No Espacio en blanco</item>
+        <item>Anchors</item>
+        <item>^ Comienzo de linea</item>
+        <item>$ Final de linea</item>
+    </array>
+
+    <array name="dataHelpRight">
+        <item>Escaped Carácteres(\\)</item>
+        <item>([{\^-=$!</item>
+        <item>|]})?*+.\</item>
+        <item>Grupos y Rangos</item>
+        <item>[abc] Rango (a, b or c)</item>
+        <item>[^abc] Ni a, b, ni c</item>
+        <item>[a-z] Desde a hasta z</item>
+        <item>[1-9] Desde 1 hasta 9</item>
+        <item>(abc) Agrupa abc</item>
+        <item>x|y char x o y</item>
+        <item>(?:abc) Grupo No capturado</item>
+        <item>(?=abc) Grupo Condicional Positivo</item>
+        <item>(?!abc) Grupo Condicional Negativo</item>
+
+    </array>
+
+</resources>

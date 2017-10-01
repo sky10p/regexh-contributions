@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dataHelpLeft">
+        <item>Кванторы</item>
+        <item>. Любой символ</item>
+        <item>* Ноль или более</item>
+        <item>+ Один или более</item>
+        <item>\? Ноль или один</item>
+        <item>{n} n раз</item>
+        <item>{n,} n или более</item>
+        <item>{n, m} n до m раз</item>
+        <item>Символы</item>
+        <item>\\d Цифра</item>
+        <item>\\D Без цифры</item>
+        <item>\\w Слово</item>
+        <item>\\W Без слова</item>
+        <item>\\s Пробел</item>
+        <item>\\S Без пробела</item>
+        <item>Привязка</item>
+        <item>^ Начало линии/строки</item>
+        <item>$ Конец линии/строки</item>
+    </array>
+
+    <array name="dataHelpLeftTitles">
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+    </array>
+
+    <array name="dataHelpRight">
+        <item>Символы игнорированы(\\)</item>
+        <item>([{\^-=$!</item>
+        <item>|]})?*+.\</item>
+        <item>Группы и диапазоны</item>
+        <item>[abc] Диапазон (a, b или c)</item>
+        <item>[^abc] Без a, b или c</item>
+        <item>[a-z] От a до z</item>
+        <item>[1-9] От 1 дo 9</item>
+        <item>(abc) Группы abc</item>
+        <item>x|y char x или y</item>
+        <item>(?:abc) Не охватывая группу</item>
+        <item>(?=abc) Позитивная группа</item>
+        <item>(?!abc) Отрицательная группа</item>
+
+    </array>
+
+    <array name="dataHelpRightTitles">
+        <item>0</item>
+        <item>3</item>
+    </array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dataHelpLeft">
+        <item>Quantifiers</item>
+        <item>. Any Character</item>
+        <item>* Zero or more</item>
+        <item>+ One or more</item>
+        <item>\? Zero or one</item>
+        <item>{n} n times</item>
+        <item>{n,} n or more</item>
+        <item>{n,m} n to m times</item>
+        <item>Characters</item>
+        <item>\\d Digit</item>
+        <item>\\D Not digit</item>
+        <item>\\w Word</item>
+        <item>\\W Not Word</item>
+        <item>\\s Whitespace</item>
+        <item>\\S Non-Whitespace</item>
+        <item>Anchors</item>
+        <item>^ Start of line/string</item>
+        <item>$ End of line/string</item>
+    </array>
+
+    <array name="dataHelpLeftTitles">
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+    </array>
+
+    <array name="dataHelpRight">
+        <item>Characters Escaped(\\)</item>
+        <item>([{\^-=$!</item>
+        <item>|]})?*+.\</item>
+        <item>Groups and Ranges</item>
+        <item>[abc] Range (a, b or c)</item>
+        <item>[^abc] Not a, b, or c</item>
+        <item>[a-z] From a to z</item>
+        <item>[1-9] From 1 to 9</item>
+        <item>(abc) Groups abc</item>
+        <item>x|y char x or y</item>
+        <item>(?:abc) Non Capturing group </item>
+        <item>(?=abc) Positive Group</item>
+        <item>(?!abc) Negative Group</item>
+
+    </array>
+
+    <array name="dataHelpRightTitles">
+        <item>0</item>
+        <item>3</item>
+    </array>
+</resources>

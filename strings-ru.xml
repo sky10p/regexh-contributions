@@ -92,7 +92,7 @@
     <string name="no_captouring_group">Группа без охвата</string>
     <string name="regex_explain_alternation_name">Чередование</string>
     <string name="regex_explain_alternation_description">Действует как логическое ИЛИ. Соответствует выражению до или после |</string>
-    <string name="positive_group_description">Matches a group after the main expression without including it in the result.</string>
+    <string name="positive_group_description">Соответствует группе после основного выражения, не считая ее в результате.</string>
     <string name="group_positive">Положительное предвидение</string>
     <string name="group_negative">Отрицательное предвидение</string>
     <string name="manual">Вручную</string>

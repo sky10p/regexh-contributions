@@ -204,5 +204,7 @@
     <string name="entero">Entero</string>
 	<string name="btn_view_details">Ver Detalles</string>
 	<string name="preference_version_title">Versión</string>
+	<string name="toast_saving">Guardando…</string>
+    <string name="toast_saved">Guardado</string>
 </resources>
 

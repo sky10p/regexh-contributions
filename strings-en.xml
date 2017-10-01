@@ -205,5 +205,6 @@
     <string name="entero">Integer</string>
 	<string name="btn_view_details">See Details</string>
 	<string name="preference_version_title">Version</string>
-	
+	<string name="toast_saving">Saving…</string>
+    <string name="toast_saved">Saved</string>
 </resources>

@@ -209,4 +209,6 @@
     <string name="entero">Целое число</string>
 	<string name="btn_view_details">Просмотреть детали</string>
 	<string name="preference_version_title">версия</string>
+	<string name="toast_saving">хранит…</string>
+    <string name="toast_saved">сохранил</string>
 </resources>

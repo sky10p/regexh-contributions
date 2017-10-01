@@ -10,12 +10,16 @@
     <string name="txt_resultado_hint">Результат</string>
     <string name="actualizando">загрузка…</string>
     <string name="coincidencias">совпадения</string>
-    <plurals name="coincidencias">
+     <plurals name="coincidencias">
         <item quantity="one">%d совпадение</item>
+        <item quantity="few">%d совпадений</item>
+        <item quantity="many">%d совпадений</item>
         <item quantity="other">%d совпадений</item>
     </plurals>
     <plurals name="capturing_groups">
         <item quantity="one">%d группа охвата</item>
+        <item quantity="few">%d группы охвата</item>
+        <item quantity="many">%d группы охвата</item>
         <item quantity="other">%d группы охвата</item>
     </plurals>
     <string name="txt_busqueda_title">Поиск</string>

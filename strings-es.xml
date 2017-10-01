@@ -202,5 +202,7 @@
     <string name="predefinida_image_description">El nombre de un fichero de imagen</string>
     <string name="predefinida_image_examples">imagen.jpg contacto.gif captura.png</string>
     <string name="entero">Entero</string>
+	<string name="btn_view_details">Ver Detalles</string>
+	<string name="preference_version_title">Versión</string>
 </resources>
 

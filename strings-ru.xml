@@ -207,4 +207,6 @@
     <string name="predefinida_image_description">Имя файла изображения</string>
     <string name="predefinida_image_name">Изображение</string>
     <string name="entero">Целое число</string>
+	<string name="btn_view_details">Просмотреть детали</string>
+	<string name="preference_version_title">версия</string>
 </resources>

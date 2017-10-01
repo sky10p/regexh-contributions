@@ -203,4 +203,7 @@
     <string name="predefinida_image_description">The name of an image file</string>
     <string name="predefinida_image_name">Image</string>
     <string name="entero">Integer</string>
+	<string name="btn_view_details">See Details</string>
+	<string name="preference_version_title">Version</string>
+	
 </resources>

@@ -206,5 +206,7 @@
 	<string name="preference_version_title">Versión</string>
 	<string name="toast_saving">Guardando…</string>
     <string name="toast_saved">Guardado</string>
+	<string name="predefinida_bitcoin_description">Dirección de Bitcoin(moneda criptográfica)</string>
+    <string name="predefinida_bitcoin_name">Dirección Bitcoin</string>
 </resources>
 

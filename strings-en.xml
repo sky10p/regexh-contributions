@@ -207,4 +207,6 @@
 	<string name="preference_version_title">Version</string>
 	<string name="toast_saving">Saving…</string>
     <string name="toast_saved">Saved</string>
+	<string name="predefinida_bitcoin_name">Bitcoin Address</string>
+    <string name="predefinida_bitcoin_description">Address for Bitcoin cryptographic currencies</string>
 </resources>

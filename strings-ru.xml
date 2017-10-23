@@ -211,4 +211,6 @@
 	<string name="preference_version_title">версия</string>
 	<string name="toast_saving">хранит…</string>
     <string name="toast_saved">сохранил</string>
+	<string name="predefinida_bitcoin_name">Адреса bitcoin</string>
+    <string name="predefinida_bitcoin_description">Криптографический валюта адреса(Bitcoin)</string>
 </resources>

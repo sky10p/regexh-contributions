@@ -10,7 +10,7 @@
     <string name="txt_resultado_hint">Результат</string>
     <string name="actualizando">загрузка…</string>
     <string name="coincidencias">совпадения</string>
-     <plurals name="coincidencias">
+    <plurals name="coincidencias">
         <item quantity="one">%d совпадение</item>
         <item quantity="few">%d совпадений</item>
         <item quantity="many">%d совпадений</item>
@@ -92,7 +92,7 @@
     <string name="no_captouring_group">Группа без охвата</string>
     <string name="regex_explain_alternation_name">Чередование</string>
     <string name="regex_explain_alternation_description">Действует как логическое ИЛИ. Соответствует выражению до или после |</string>
-    <string name="positive_group_description"> Соответствует группе после основного выражения, не включая ее в результат.</string>
+    <string name="positive_group_description">Соответствует группе после основного выражения, не считая ее в результате.</string>
     <string name="group_positive">Положительное предвидение</string>
     <string name="group_negative">Отрицательное предвидение</string>
     <string name="manual">Вручную</string>
@@ -147,8 +147,6 @@
     <string name="toast_nombre_saved">Повторяющееся имя регулярного выражения</string>
     <string name="toast_regex_saved">вы ранее сохраняли регулярное выражение</string>
     <string name="description">Описание</string>
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-5619224410906074/5120615548</string>
-    <string name="banner_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="buy">Купить</string>
     <string name="servicios">Сервисы</string>
     <string name="problem_buy">Не удалось купить приложение, попробуйте позже.</string>
@@ -207,10 +205,14 @@
     <string name="predefinida_image_description">Имя файла изображения</string>
     <string name="predefinida_image_name">Изображение</string>
     <string name="entero">Целое число</string>
-	<string name="btn_view_details">Просмотреть детали</string>
-	<string name="preference_version_title">версия</string>
-	<string name="toast_saving">хранит…</string>
+    <string name="btn_view_details">Просмотреть детали</string>
+    <string name="preference_version_title">версия</string>
+    <string name="toast_saving">хранит…</string>
     <string name="toast_saved">сохранил</string>
-	<string name="predefinida_bitcoin_name">Адреса bitcoin</string>
+    <string name="predefinida_bitcoin_name">Адреса bitcoin</string>
     <string name="predefinida_bitcoin_description">Криптографический валюта адреса(Bitcoin)</string>
+    <string name="regex_explain_wordboundary_name">граница слова</string>
+    <string name="regex_explain_wordboundary_description">Соответствует граничной позиции слова между символом слова и символом или позицией без слова (начало / конец строки).</string>
+    <string name="regex_explain_notwordboundary_description">Соответствует любой позиции, которая не является границей слов.</string>
+    <string name="regex_explain_notwordboundary_name">не граница слов</string>
 </resources>

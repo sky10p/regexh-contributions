@@ -202,11 +202,15 @@
     <string name="predefinida_image_description">El nombre de un fichero de imagen</string>
     <string name="predefinida_image_examples">imagen.jpg contacto.gif captura.png</string>
     <string name="entero">Entero</string>
-	<string name="btn_view_details">Ver Detalles</string>
-	<string name="preference_version_title">Versión</string>
-	<string name="toast_saving">Guardando…</string>
+    <string name="btn_view_details">Ver Detalles</string>
+    <string name="preference_version_title">Versión</string>
+    <string name="toast_saving">Guardando…</string>
     <string name="toast_saved">Guardado</string>
-	<string name="predefinida_bitcoin_description">Dirección de Bitcoin(moneda criptográfica)</string>
+    <string name="predefinida_bitcoin_description">Dirección de Bitcoin(moneda criptográfica)</string>
     <string name="predefinida_bitcoin_name">Dirección Bitcoin</string>
+    <string name="regex_explain_wordboundary_description">Coincide con un límite de palabra, corresponde a un carácter no visible(espacio, principio o fin de la cadena...)</string>
+    <string name="regex_explain_wordboundary_name">Límite de palabra</string>
+    <string name="regex_explain_notwordboundary_name">No Límite de palabra</string>
+    <string name="regex_explain_notwordboundary_description">Coincide con cualquier posición que no es límite de palabra(word boundary)</string>
 </resources>
 

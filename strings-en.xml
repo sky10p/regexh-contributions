@@ -71,6 +71,10 @@
     <string name="regex_explain_setno_description">Match any character that is not in the set</string>
     <string name="regex_explain_range_description">Matches a character in the range \"\\1\" to \"\\2\" (char code \\3 to \\4)</string>
     <string name="regex_explain_range_name">Range</string>
+    <string name="regex_explain_wordboundary_description">Matches a word boundary position between a word character and non-word character or position (start / end of string).</string>
+    <string name="regex_explain_wordboundary_name">Word Boundary</string>
+    <string name="regex_explain_notwordboundary_description">Matches any position that is not a word boundary.</string>
+    <string name="regex_explain_notwordboundary_name">Not Word Boundary</string>
     <string name="regex_correct_form">Please, write a correct regex in the form</string>
     <string name="email_predefinida">Email</string>
     <string name="email_description_predefinida">Validate an email</string>
@@ -194,7 +198,7 @@
     <string name="predefinida_dni_description">National Identity Document in Countries like Spain</string>
     <string name="predefinida_nie_description">Identity number for the foreigner</string>
     <string name="details">Details</string>
-    <string name="regex_explain_unicode_description">Matches the character with code \\ 1 = \\ 2 in hexadecimal.</string>
+    <string name="regex_explain_unicode_description">Matches the character with code \\1 = \\2 in hexadecimal.</string>
     <string name="regex_explain_unicode_name">Unicode Escape</string>
     <string name="dialog_text_size_change_title">Change text size</string>
     <string name="mnu_change_text_size">Change text size</string>
@@ -203,10 +207,10 @@
     <string name="predefinida_image_description">The name of an image file</string>
     <string name="predefinida_image_name">Image</string>
     <string name="entero">Integer</string>
-	<string name="btn_view_details">See Details</string>
-	<string name="preference_version_title">Version</string>
-	<string name="toast_saving">Saving…</string>
+    <string name="btn_view_details">See Details</string>
+    <string name="preference_version_title">Version</string>
+    <string name="toast_saving">Saving…</string>
     <string name="toast_saved">Saved</string>
-	<string name="predefinida_bitcoin_name">Bitcoin Address</string>
+    <string name="predefinida_bitcoin_name">Bitcoin Address</string>
     <string name="predefinida_bitcoin_description">Address for Bitcoin cryptographic currencies</string>
 </resources>

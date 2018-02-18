@@ -20,9 +20,9 @@
             <search element="\\d"></search>
             <search element="\\s"></search>
         </searches>
-        <p>Las expresiones regulares “\w”,”\d”,”\s” define una letra cualquiera, un dígito o un espacio respectivamente.</p>
+        <p>Las expresiones regulares “{line}w”,”{line}d”,”{line}s” define una letra cualquiera, un dígito o un espacio respectivamente.</p>
 
-        <p>Al igual que el punto se puede definir con otras expresiones(grupos, cuantificadores). Por ejemplo para encontrar dos letras seguidas de un espacio y un número (ej: “aB 3”) podríamos usar este regex \w{2}\s\d</p>
+        <p>Al igual que el punto se puede definir con otras expresiones(grupos, cuantificadores). Por ejemplo para encontrar dos letras seguidas de un espacio y un número (ej: “aB 3”) podríamos usar este regex {line}w{2}{line}s{line}d</p>
 
     </item>
 
@@ -32,11 +32,11 @@
             <search element="\\D"></search>
             <search element="\\S"></search>
         </searches>
-        <p>Las expresiones regulares “\W”,”\D”,”\S” define un patrón en el que NO se encuentra una letra, un dígito o un espacio respectivamente.</p>
+        <p>Las expresiones regulares “{line}W”,”{line}D”,”{line}S” define un patrón en el que NO se encuentra una letra, un dígito o un espacio respectivamente.</p>
 
-        <p>Es decir funciona de la siguiente manera, si buscamos cualquier carácter que no sea espacio podríamos usar “\S”.</p>
+        <p>Es decir funciona de la siguiente manera, si buscamos cualquier carácter que no sea espacio podríamos usar “{line}S”.</p>
 
-        <p>Por ejemplo vamos a buscar el texto “5Q@.”(cualquier carácter sin espacio), podríamos usar \S{4}</p>
+        <p>Por ejemplo vamos a buscar el texto “5Q@.”(cualquier carácter sin espacio), podríamos usar {line}S{4}</p>
 
     </item>
 
@@ -44,7 +44,7 @@
         <p>Esta expresión encuentra cualquiera coincidencia que este dentro del conjunto.</p>
         <p>De esta manera, la expresión [bcd] encontrá los textos “b”,”c” o “d”.</p>
 
-        <p>También se pueden usar expresiones dentro, por ejemplo [\w\d-@] encontrará cualquier carácter alfanumérico, un guión o el símbolo “@”.</p>
+        <p>También se pueden usar expresiones dentro, por ejemplo [{line}w{line}d-@] encontrará cualquier carácter alfanumérico, un guión o el símbolo “@”.</p>
 
         <p>Al igual que las expresiones anteriores se pueden agrupar o usar cuantificadores.</p>
 
@@ -66,25 +66,39 @@
         </searches>
         <p>Las expresiones “^” y “$” sirven para marcar el principio y final de la cadena. Por ejemplo buscando el patrón “a” encontrará todas las letras “a” en el texto, sin embargo buscando “a$” encontrará la última letra de la cadena, si ésta es a.</p>
 
-        <p>“5a”(cadena que empiece por número)-> “^\d”</p>
+        <p>“5a”(cadena que empiece por número)-> “^{line}d”</p>
+    </item>
+
+    <item search="\\b">
+        <p>La expresión {line}b sirve para marcar un carácter no visible como el principio y fin del string o espacios.</p>
+        <p>Por ejemplo: </p>
+        <p>Para la expresión "{line}bye{line}b", encontraría el texto "ye" pero no el texto "bye" ya que b no corresonde a un espacio, principio o fin de cadena.</p>
+
+    </item>
+
+    <item search="\\B">
+        <p>La expresión {line}B se usa para marcar una palabra que no sea un límite (carácter visible).</p>
+        <p>Por ejemplo: </p>
+        <p>Para la expresión "{line}Bye", encontrará el texto "bye" pero no el texto "ye" ya que antes hay un carácter no visible (principio de línea)</p>
+
     </item>
 
     <item search="\\.">
-        <p>Cuando queremos encontrar un carácter reservado por regex, usamos el escaped carácter “\”.</p>
+        <p>Cuando queremos encontrar un carácter reservado por regex, usamos el escaped carácter “{line}”.</p>
 
-        <p>Por ejemplo si queremos encontrar un punto al final del texto, no podemos usar “.$” ya que el punto representa cualquier carácter. Así que usamos el Escaped carácter, de esta manera quedaría así “\.$”.</p>
+        <p>Por ejemplo si queremos encontrar un punto al final del texto, no podemos usar “.$” ya que el punto representa cualquier carácter. Así que usamos el Escaped carácter, de esta manera quedaría así “{line}.$”.</p>
 
-        <p>Por ejemplo si quiero encontrar el texto “\w” utilizaría la expresión “\\w”.</p>
+        <p>Por ejemplo si quiero encontrar el texto “{line}w” utilizaría la expresión “{line}{line}w”.</p>
 
     </item>
     <item search="(abc)">
         <p>Se permite agrupar las coincidencias para opciones de reemplazo u otras utilidades.</p>
 
-        <p>Por ejemplo si usamos esta expresión “^(\w).+” buscará cualquier cadena que empiece por una letra, pero capturando la letra inicial.</p>
+        <p>Por ejemplo si usamos esta expresión “^({line}w).+” buscará cualquier cadena que empiece por una letra, pero capturando la letra inicial.</p>
 
         <p>Si quisiéramos obtenerla, usando reemplazar con la expresión “$1” nos devolvería la letra inicial.</p>
 
-        <p>El carácter +,* y ? funcionan como cuantificadores 1 o más, 0 o más, 0 o 1 respectivamente y se puede usar con el grupo, por ejemplo (\w\d)?a, coincide si encuentra la “a” y/o si tiene una letra o un número delante.</p>
+        <p>El carácter +,* y ? funcionan como cuantificadores 1 o más, 0 o más, 0 o 1 respectivamente y se puede usar con el grupo, por ejemplo ({line}w{line}d)?a, coincide si encuentra la “a” y/o si tiene una letra o un número delante.</p>
 
 
     </item>
@@ -96,7 +110,7 @@
         </searches>
         <p>(?:abc) es un grupo no capturado, permite utilizar cuantificadores a un grupo entero sin necesidad de que estos queden capturados como pasaría en un grupo.</p>
 
-        <p>(?=abc) La coincidencia anterior solo se cumple si este grupo se cumple. Por ejemplo la expresión \w+(?=\d+) encuentra las letras sólo si le siguen números.</p>
+        <p>(?=abc) La coincidencia anterior solo se cumple si este grupo se cumple. Por ejemplo la expresión {line}w+(?={line}d+) encuentra las letras sólo si le siguen números.</p>
 
         <p>(?!abc) Negación del grupo especial anterior, es decir solo se cumple la coincidencia anterior si esta no se cumple.</p>
 
@@ -105,7 +119,7 @@
     <item search="|">
         <p>Actúa como un boolean, por ejemplo (hola|adios) captura las palabras “hola” o “adios”.</p>
 
-        <p>\w|\d captura o una letra o un número.</p>
+        <p>{line}w|{line}d captura o una letra o un número.</p>
 
     </item>
 

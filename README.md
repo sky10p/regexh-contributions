@@ -1,4 +1,4 @@
-# regexh-languages
+# RegexH - Translations
 
 ## Spanish
 Ayuda a traducer la app de RegexH a más idiomas

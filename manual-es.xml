@@ -16,9 +16,9 @@
     </item>
     <item>
         <searches>
-            <search element="\\w"></search>
-            <search element="\\d"></search>
-            <search element="\\s"></search>
+            <search element="\\w" />
+            <search element="\\d" />
+            <search element="\\s" />
         </searches>
         <p>Las expresiones regulares “{line}w”,”{line}d”,”{line}s” define una letra cualquiera, un dígito o un espacio respectivamente.</p>
 
@@ -28,9 +28,9 @@
 
     <item>
         <searches>
-            <search element="\\W"></search>
-            <search element="\\D"></search>
-            <search element="\\S"></search>
+            <search element="\\W" />
+            <search element="\\D" />
+            <search element="\\S" />
         </searches>
         <p>Las expresiones regulares “{line}W”,”{line}D”,”{line}S” define un patrón en el que NO se encuentra una letra, un dígito o un espacio respectivamente.</p>
 
@@ -61,8 +61,8 @@
     </item>
     <item>
         <searches>
-            <search element="^"></search>
-            <search element="$"></search>
+            <search element="^" />
+            <search element="$" />
         </searches>
         <p>Las expresiones “^” y “$” sirven para marcar el principio y final de la cadena. Por ejemplo buscando el patrón “a” encontrará todas las letras “a” en el texto, sin embargo buscando “a$” encontrará la última letra de la cadena, si ésta es a.</p>
 
@@ -104,15 +104,26 @@
     </item>
     <item>
         <searches>
-            <search element="(?:abc)"></search>
-            <search element="(?=abc)"></search>
-            <search element="(?!abc)"></search>
+            <search element="(?:abc)" />
+            <search element="(?=abc)" />
+            <search element="(?!abc)" />
         </searches>
         <p>(?:abc) es un grupo no capturado, permite utilizar cuantificadores a un grupo entero sin necesidad de que estos queden capturados como pasaría en un grupo.</p>
 
         <p>(?=abc) La coincidencia anterior solo se cumple si este grupo se cumple. Por ejemplo la expresión {line}w+(?={line}d+) encuentra las letras sólo si le siguen números.</p>
 
         <p>(?!abc) Negación del grupo especial anterior, es decir solo se cumple la coincidencia anterior si esta no se cumple.</p>
+
+    </item>
+
+    <item>
+        <searches>
+
+            <search element="(?&lt;=abc)" />
+            <search element="(?&lt;!abc)" />
+        </searches>
+        <p>(?&lt;=abc) La coincidencia siguiente solo se cumple si este grupo se cumple. Por ejemplo la expresión (?&lt;=[A-Z])b encuentra la letra "b" sólo si la anterior letra es mayúscula.</p>
+        <p>(?&lt;!abc) Negación del grupo especial siguiente, es decir solo se cumple la coincidencia siguiente si esta no se cumple.</p>
 
     </item>
 

@@ -5,7 +5,7 @@
     <string name="navigation_drawer_close">Cerrar barra de navegación</string>
 
     <string name="action_settings">Configuración</string>
-    <string name="hint_regex_input">Inserta Expresión Regex</string>
+    <string name="hint_regex_input">Inserta Expresión Regular</string>
     <string name="txt_texto_hint">Texto a Analizar</string>
     <string name="txt_resultado_hint">Resultado</string>
     <string name="actualizando">actualizando…</string>
@@ -88,9 +88,9 @@
     <string name="non_capturing_group_description">Agrupa un grupo sin capturarlo para su uso</string>
     <string name="regex_explain_alternation_name">Condicion Disyuntiva</string>
     <string name="regex_explain_alternation_description">Actúa como un boolean. Coincide la expresión con lo de antes o después de |</string>
-    <string name="group_positive">Grupo Condicional Positivo</string>
+    <string name="group_positive">Lookahead Positivo</string>
     <string name="positive_group_description">Selecciona la coincidencia anterior sólo si esta también se cumple(esta no es seleccionada)</string>
-    <string name="group_negative">Grupo Condicional Negativo</string>
+    <string name="group_negative">Lookahead Negativo</string>
     <string name="negative_group_description">Selecciona la coincidencia sólo si esta no se cumple</string>
     <string name="manual">Manual</string>
     <string name="manual_subtitle">Uso de expresiones regex</string>
@@ -166,8 +166,8 @@
     <string name="message_remove_element">¿Desea borrar el elemento?</string>
     <string name="predefinida_url_name">URL</string>
     <string name="predefinida_url_description">Coincide con una url válida http o https</string>
-    <string name="predefinida_ip_name">Direccion ip</string>
-    <string name="predefinida_ip_description">Describe una dirección ip válida</string>
+    <string name="predefinida_ip_name">Direccion IPv4</string>
+    <string name="predefinida_ip_description">Describe una dirección IPv4 válida</string>
     <string name="predefinida_comment_example">/* Esto es un comentario */</string>
     <string name="predefinida_comment_name">Comentario Multiple</string>
     <string name="predefinida_comment_description">Busca un comentario, y agrupa su contenido.</string>
@@ -208,9 +208,39 @@
     <string name="toast_saved">Guardado</string>
     <string name="predefinida_bitcoin_description">Dirección de Bitcoin(moneda criptográfica)</string>
     <string name="predefinida_bitcoin_name">Dirección Bitcoin</string>
-    <string name="regex_explain_wordboundary_description">Coincide con un límite de palabra, corresponde a un carácter no visible(espacio, principio o fin de la cadena...)</string>
+    <string name="regex_explain_wordboundary_description">Coincide con un límite de palabra, corresponde a un carácter no visible(espacio, principio o fin de la cadena…)</string>
     <string name="regex_explain_wordboundary_name">Límite de palabra</string>
     <string name="regex_explain_notwordboundary_name">No Límite de palabra</string>
     <string name="regex_explain_notwordboundary_description">Coincide con cualquier posición que no es límite de palabra(word boundary)</string>
+    <string name="switch_button_multine">Multilínea</string>
+    <string name="open_keyboard">Abrir teclado</string>
+    <string name="politicyPrivacy">Política de Privacidad</string>
+    <string name="predefinida_ipv6_description">Describe una dirección IPv6 válida</string>
+    <string name="predefinida_ipv6_name">Dirección IPv6</string>
+    <string name="cd_main_icon_regexh">icono de regexh principal</string>
+    <string name="cd_icon_option_default_term">icono de la opción predefinida</string>
+    <string name="cd_icon_payment">icono del pago</string>
+    <string name="cd_replacement_result">resultado del remplazamiento</string>
+    <string name="cd_bar_to_change_de_text_size">barra para cambiar el tamaño del texto</string>
+    <string name="cd_general_list_of_elements">lista general de elementos</string>
+    <string name="cd_selected_matched_with_data">coincidencia seleccionada</string>
+    <string name="positive_behind_group_description">Selecciona la coincidencia de después sólo si esta también se cumple(esta no es seleccionada)</string>
+    <string name="negative_behind_group_description">Selecciona la coincidencia de después sólo si esta no se cumple</string>
+    <string name="group_positive_behind">Lookbehind Positivo</string>
+    <string name="group_negative_behind">Lookbehind Negativo</string>
+    <string name="switch_button_case_insensitive">Case insensitive</string>
+    <string name="menu_collaborate">Colaborar</string>
+    <string name="collaborate_version">Versión %1$s</string>
+    <string name="collaborate_subtitle">Colabora</string>
+    <string name="collaborate_parragraph_1">Esta aplicación se mantendrá de manera gratuita desde la versión 2.5.0, se seguirá actualizando para adaptar a las nuevas versiones de android, así como solucionar los bugs que pudieran aparecer.</string>
+    <string name="collaborate_parragraph_2">Puedes contribuir a mejorar la aplicación siguiendo la documentación en el siguiente enlace. De esta manera, podrá ayudar a  mejorar las traducciones y las nuevas funciones definidas en el backlog.</string>
+    <string name="collaborate_bitcoin">Dirección Bitcoin Donaciones</string>
+    <string name="collaborate_developers_title">Desarrolladores</string>
+    <string name="avatar">Avatar</string>
+    <string name="collaborate_tasks_myself">Planificación, desarrollo y diseño de la App</string>
+    <string name="collaborate_translators">Traductores</string>
+    <string name="collaborate_russian_language"><![CDATA[<<Ruso>>]]></string>
+    <string name="contDesc_collaborate_app_icon">Imagen de la aplicación</string>
+    <string name="image_of_russia">Imagen de Rusia</string>
 </resources>
 

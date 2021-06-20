@@ -39,8 +39,10 @@
         <item>(abc) Groups abc</item>
         <item>x|y char x or y</item>
         <item>(?:abc) Non Capturing group </item>
-        <item>(?=abc) Positive Group</item>
-        <item>(?!abc) Negative Group</item>
+        <item>(?=abc) Positive Lookahead</item>
+        <item>(?!abc) Negative Lookahead</item>
+        <item>(?&lt;=abc) Positive Lookbehind</item>
+        <item>(?&lt;!abc) Negative Lookbehind</item>
 
     </array>
 

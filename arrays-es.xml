@@ -33,8 +33,10 @@
         <item>(abc) Agrupa abc</item>
         <item>x|y char x o y</item>
         <item>(?:abc) Grupo No capturado</item>
-        <item>(?=abc) Grupo Condicional Positivo</item>
-        <item>(?!abc) Grupo Condicional Negativo</item>
+        <item>(?=abc) Looahead Positivo</item>
+        <item>(?!abc) Looahead Negativo</item>
+        <item>(?&lt;=abc) Lookbehind Positivo</item>
+        <item>(?&lt;!abc) Lookbehind Negativo</item>
 
     </array>
 

@@ -20,3 +20,5 @@ You can help improve the applicatin by making donations through bitcoin. In this
 
 ### Bitcoin Address
 bc1qv5qyvxgnfe4frs92xjza9ld2rmjme40l0t2zhj
+
+![Alt text](bitcoin-qr.png?raw=true "Bitcoin address")

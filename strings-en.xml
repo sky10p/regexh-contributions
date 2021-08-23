@@ -212,6 +212,7 @@
     <string name="predefinida_image_name">Image</string>
     <string name="entero">Integer</string>
     <string name="btn_view_details">See Details</string>
+    <string name="btn_view_details_list">See details of %1$s</string>
     <string name="preference_version_title">Version</string>
     <string name="toast_saving">Saving…</string>
     <string name="toast_saved">Saved</string>
@@ -229,7 +230,7 @@
     <string name="cd_replacement_result">replacement result</string>
     <string name="cd_bar_to_change_de_text_size">bar to change the text size</string>
     <string name="cd_general_list_of_elements">general list of elements</string>
-    <string name="cd_selected_matched_with_data">selected matched with data</string>
+    <string name="cd_selected_matched_with_data">found matches with data</string>
     <string name="menu_collaborate">Collaborate</string>
     <string name="collaborate_version">Version %1$s</string>
     <string name="contDesc_collaborate_app_icon">Image of the application</string>
@@ -247,4 +248,12 @@
     <string name="bitcoinAddressDonation" translatable="false">bc1qv5qyvxgnfe4frs92xjza9ld2rmjme40l0t2zhj</string>
     <string name="image_of_russia">Image of russia</string>
     <string name="regexh_translations_web" translatable="false">https://github.com/sky10p/regexh-contributions</string>
+    <string name="preference_calculate_automatically_title">Calculate Automatically</string>
+    <string name="preference_calculate_automatically_summary">When you change the regex expresion or the text, the result will be calculated automatically. If you disable this option, you will see a button to calculate manually.   **The manual option could be useful with large texts.</string>
+    <string name="calculate_manually_content_description">calculate manually the result</string>
+    <string name="preference_title_appearance">Appearance</string>
+    <string name="preference_theme_summary">Default, light theme or dark theme</string>
+    <string name="both">Both</string>
+    <string name="choose_option_dialog_upper_lower">Choose option</string>
+    <string name="settings_theme_title">Theme</string>
 </resources>

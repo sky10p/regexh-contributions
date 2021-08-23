@@ -17,8 +17,8 @@
         <item>\\s Пробел</item>
         <item>\\S Без пробела</item>
         <item>Привязка</item>
-        <item>^ Начало линии/строки</item>
-        <item>$ Конец линии/строки</item>
+        <item>^ Начало линии</item>
+        <item>$ Конец линии</item>
     </array>
 
     <array name="dataHelpLeftTitles">
@@ -49,5 +49,17 @@
     <array name="dataHelpRightTitles">
         <item>0</item>
         <item>3</item>
+    </array>
+
+    <array name="settings_options_theme_alias">
+        <item>Дефолт</item>
+        <item>Светлая тема</item>
+        <item>Темная тема</item>
+    </array>
+
+    <array name="settings_options_theme">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
     </array>
 </resources>

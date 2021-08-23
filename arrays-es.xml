@@ -40,4 +40,16 @@
 
     </array>
 
+    <array name="settings_options_theme_alias">
+        <item>Por defecto</item>
+        <item>Tema claro</item>
+        <item>Tema oscuro</item>
+    </array>
+
+    <array name="settings_options_theme">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+    </array>
+
 </resources>

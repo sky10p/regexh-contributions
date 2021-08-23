@@ -245,4 +245,13 @@
     <string name="collaborate_translators">Переводчики</string>
     <string name="collaborate_russian_language"><![CDATA[<<русский>>]]></string>
     <string name="image_of_russia">Картина Россия</string>
+    <string name="preference_calculate_automatically_summary">Когда вы меняете выражение регулярного выражения или текст, результат будет рассчитан автоматически. Если вы отключите эту опцию, вы увидите кнопку для расчета вручную. \n\n** Ручной вариант может быть полезен для больших текстов.</string>
+    <string name="preference_calculate_automatically_title">Рассчитывать автоматически</string>
+    <string name="calculate_manually_content_description">рассчитать вручную результат</string>
+    <string name="preference_title_appearance">внешний вид</string>
+    <string name="preference_theme_summary">По умолчанию, светлая тема или темная тема</string>
+    <string name="btn_view_details_list">Просмотреть детали из %1$s</string>
+    <string name="both">оба</string>
+    <string name="choose_option_dialog_upper_lower">Выберите вариант</string>
+    <string name="settings_theme_title">Тема</string>
 </resources>

@@ -116,6 +116,7 @@
     <string name="design_fragment_subtitle">Crear regex usando acciones</string>
     <string name="uppercase">Mayúsculas</string>
     <string name="lowercase">Minusculas</string>
+    <string name="both">Ambas</string>
     <string name="symbol">Símbolo</string>
     <string name="clear">Limpiar</string>
     <string name="undo">Deshacer</string>
@@ -242,5 +243,13 @@
     <string name="collaborate_russian_language"><![CDATA[<<Ruso>>]]></string>
     <string name="contDesc_collaborate_app_icon">Imagen de la aplicación</string>
     <string name="image_of_russia">Imagen de Rusia</string>
+    <string name="preference_calculate_automatically_title">Calcular automáticamente</string>
+    <string name="preference_calculate_automatically_summary">Cuando cambias la expresión regular o el texto, el resultado será calculado automáticamente. Si desactivas la opción, verás un botón para calcularlo manualmente. \n\n**La opción manual puede ser interesante con textos largos.</string>
+    <string name="calculate_manually_content_description">calcular manualmente el resultado</string>
+    <string name="preference_title_appearance">Apariencia</string>
+    <string name="preference_theme_summary">Por defecto, tema claro o tema oscuro</string>
+    <string name="btn_view_details_list">Ver detalles de %1$s</string>
+    <string name="choose_option_dialog_upper_lower">Elige opción</string>
+    <string name="settings_theme_title">Tema</string>
 </resources>
 

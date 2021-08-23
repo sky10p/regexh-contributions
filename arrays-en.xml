@@ -17,8 +17,8 @@
         <item>\\s Whitespace</item>
         <item>\\S Non-Whitespace</item>
         <item>Anchors</item>
-        <item>^ Start of line/string</item>
-        <item>$ End of line/string</item>
+        <item>^ Start of line</item>
+        <item>$ End of line</item>
     </array>
 
     <array name="dataHelpLeftTitles">
@@ -49,5 +49,17 @@
     <array name="dataHelpRightTitles">
         <item>0</item>
         <item>3</item>
+    </array>
+
+    <array name="settings_options_theme_alias">
+        <item>Default</item>
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </array>
+
+    <array name="settings_options_theme">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
     </array>
 </resources>

@@ -6,7 +6,7 @@
   <string name="hint_regex_input">Regex</string>
   <string name="txt_texto_hint">Texto</string>
   <string name="txt_resultado_hint">Resultado</string>
-  <string name="actualizando">carregando&#x2026;</string>
+  <string name="actualizando">carregando...</string>
   <string name="coincidencias">correspondentes</string>
   <plurals name="coincidencias">
     <item quantity="one">%d correspondente</item>

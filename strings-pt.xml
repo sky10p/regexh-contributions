@@ -209,7 +209,7 @@
   <string name="entero">Inteiro</string>
   <string name="btn_view_details">Ver detalhes</string>
   <string name="preference_version_title">Versão</string>
-  <string name="toast_saving">Salvando&#x2026;</string>
+  <string name="toast_saving">Salvando...</string>
   <string name="toast_saved">Salvo</string>
   <string name="predefinida_bitcoin_name">Endereço Bitcoin</string>
   <string name="predefinida_bitcoin_description">Endereço de cripto moedas Bitcoin</string>

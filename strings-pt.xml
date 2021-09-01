@@ -239,11 +239,11 @@
     <string name="collaborate_translators">Tradutores</string>
     <string name="collaborate_russian_language"><![CDATA[<<Russo>>]]></string>
     <string name="image_of_russia">Imagem da rússia</string>
-    <string name="preference_calculate_automatically_title">Calcule Automaticamente</string>
+    <string name="preference_calculate_automatically_title">Calcular Automaticamente</string>
     <string name="preference_calculate_automatically_summary">Quando você altera a expressão da regex ou o texto, o resultado é calculado automaticamente. Se você desativar esta opção, verá um botão para calcular manualmente. ** A opção manual pode ser útil com textos grandes.</string>
     <string name="calculate_manually_content_description">calcular manualmente o resultado</string>
     <string name="preference_title_appearance">Aparência</string>
-    <string name="preference_theme_summary">Por defeito, tema claro ou tema escuro</string>
+    <string name="preference_theme_summary">Padrão, tema claro ou tema escuro</string>
     <string name="both">Ambas</string>
     <string name="choose_option_dialog_upper_lower">Escolha a opção</string>
     <string name="settings_theme_title">Tema</string>

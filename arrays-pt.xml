@@ -1,54 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <array name="dataHelpLeft">
-        <item>Quantificadores</item>
-        <item>. Qualquer Caractere</item>
-        <item>* Zero ou mais</item>
-        <item>+ Um ou mais</item>
-        <item>\? Zero ou um</item>
-        <item>{n} n vezes</item>
-        <item>{n,} n ou mais</item>
-        <item>{n,m} n para m vezes</item>
-        <item>Caracteres</item>
-        <item>\\d Dígito</item>
-        <item>\\D Não Dígito</item>
-        <item>\\w Alfanumérico</item>
-        <item>\\W Não Alfanumérico</item>
-        <item>\\s Espaço em Branco</item>
-        <item>\\S Não Espaço em Branco</item>
-        <item>Âncoras</item>
-        <item>^ Início da linha</item>
-        <item>$ Fim da linha</item>
-    </array>
-
-    <array name="dataHelpRight">
-        <item>Caracteres de Escape(\\)</item>
-        <item>([{\^-=$!</item>
-        <item>|]})?*+.\</item>
-        <item>Grupos e Intervalos</item>
-        <item>[abc] Caractere a, b ou c</item>
-        <item>[^abc] Tudo exeto a, b, ou c</item>
-        <item>[a-z] De a até o z</item>
-        <item>[1-9] De 1 a 9</item>
-        <item>(abc) Grupos abc</item>
-        <item>x|y Caractere x ou y</item>
-        <item>(?:abc) Grupo de não captura</item>
-        <item>(?=abc) abc está na frente</item>
-        <item>(?!abc) abc não está na frente</item>
-        <item>(?&lt;=abc) abc está atrás</item>
-        <item>(?&lt;!abc) abc não está atrás</item>
-
-    </array>
-
-    <array name="settings_options_theme_alias">
-        <item>Por padrão</item>
-        <item>Tema claro</item>
-        <item>Tema escuro</item>
-    </array>
-
-    <array name="settings_options_theme">
-        <item>default</item>
-        <item>light</item>
-        <item>dark</item>
-    </array>
+  <array name="dataHelpLeft">
+    <item>Quantificadores</item>
+    <item>. Qualquer Caractere</item>
+    <item>* Zero ou mais</item>
+    <item>+ Um ou mais</item>
+    <item>\? Zero ou um</item>
+    <item>{n} n vezes</item>
+    <item>{n,} n ou mais</item>
+    <item>{n,m} n para m vezes</item>
+    <item>Caracteres</item>
+    <item>\\d Dígito</item>
+    <item>\\D Não Dígito</item>
+    <item>\\w Alfanumérico</item>
+    <item>\\W Não Alfanumérico</item>
+    <item>\\s Espaço em Branco</item>
+    <item>\\S Não Espaço em Branco</item>
+    <item>Âncoras</item>
+    <item>^ Início da linha</item>
+    <item>$ Fim da linha</item>
+  </array>
+  <array name="dataHelpRight">
+    <item>Caracteres de Escape(\\)</item>
+    <item>([{\^-=$!</item>
+    <item>|]})?*+.\</item>
+    <item>Grupos e Intervalos</item>
+    <item>[abc] Caractere a, b ou c</item>
+    <item>[^abc] Tudo exeto a, b, ou c</item>
+    <item>[a-z] De a até o z</item>
+    <item>[1-9] De 1 a 9</item>
+    <item>(abc) Grupo abc capturado</item>
+    <item>x|y Caractere x ou y</item>
+    <item>(?:abc) Não capturar o grupo abc</item>
+    <item>(?=abc) abc está na frente</item>
+    <item>(?!abc) abc não está na frente</item>
+    <item>(?&lt;=abc) abc está atrás</item>
+    <item>(?&lt;!abc) abc não está atrás</item>
+  </array>
+  <array name="settings_options_theme_alias">
+    <item>Por padrão</item>
+    <item>Tema claro</item>
+    <item>Tema escuro</item>
+  </array>
+  <array name="settings_options_theme">
+    <item>default</item>
+    <item>light</item>
+    <item>dark</item>
+  </array>
 </resources>

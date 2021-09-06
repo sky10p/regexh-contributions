@@ -6,11 +6,6 @@ Make a pull request modificating the texts you want to translate or improve.
 
 Once validated the changes, your changes will be approved for a next version.
 
-## Colaborate and Donations
+## Colaborate
 
-You can help improve the application by making donations through bitcoin. In this way you will help with the expenses related to the improvement in the translations and the new functionalities defined in the backlog
-
-### Bitcoin Address
-bc1qv5qyvxgnfe4frs92xjza9ld2rmjme40l0t2zhj
-
-![Alt text](bitcoin-qr.png?raw=true "Bitcoin address")
+You can help improve the application contacting with the developer (regexh.skyapps@gmail.com). 

@@ -265,4 +265,6 @@
     <string name="mnu_copy_highlighted_results">Copy highlighted results</string>
     <string name="preference_show_bottom_bar_with_keyboard_title">Show Bottom Bar with Keyboard</string>
     <string name="preference_show_bottom_bar_with_keyboard_summary">In search, you can hide the bottom bar to have more space for the keyboard. Enable this option if you prefer to keep the bar visible while typing.</string>
+    <string name="execution_time">%1$.2f ms</string>
+
 </resources>

@@ -262,4 +262,6 @@
     <string name="mnu_copy_non_highlighted_results">Копировать невыделенные результаты</string>
     <string name="preference_show_bottom_bar_with_keyboard_title">Показывать нижнюю панель с клавиатурой</string>
     <string name="preference_show_bottom_bar_with_keyboard_summary">В режиме поиска вы можете скрыть нижнюю панель, чтобы освободить больше места для клавиатуры. Активируйте эту опцию, если предпочитаете оставлять панель видимой во время набора текста.</string>
+    <string name="execution_time">%1$.2f мс</string>
+
 </resources>

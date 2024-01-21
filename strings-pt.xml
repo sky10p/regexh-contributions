@@ -258,4 +258,6 @@
     <string name="mnu_copy_non_highlighted_results">Copiar resultados não destacados</string>
     <string name="preference_show_bottom_bar_with_keyboard_title">Mostrar Barra Inferior com Teclado</string>
     <string name="preference_show_bottom_bar_with_keyboard_summary">Na busca, você pode ocultar a barra inferior para ter mais espaço para o teclado. Ative esta opção se preferir manter a barra visível ao digitar</string>
+    <string name="execution_time">%1$.2f ms</string>
+
 </resources>

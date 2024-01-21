@@ -254,4 +254,12 @@
     <string name="both">оба</string>
     <string name="choose_option_dialog_upper_lower">Выберите вариант</string>
     <string name="settings_theme_title">Тема</string>
+    <string name="image_of_portugal">Образ Португалии</string>
+    <string name="toast_nothing_to_be_copied">нечего копировать</string>
+    <string name="toast_hightling_results_copied">Выделенные результаты скопированы.</string>
+    <string name="toast_non_hightling_results_copied">Невыделенные результаты были скопированы.</string>
+    <string name="mnu_copy_highlighted_results">Копировать выделенные результаты</string>
+    <string name="mnu_copy_non_highlighted_results">Копировать невыделенные результаты</string>
+    <string name="preference_show_bottom_bar_with_keyboard_title">Показывать нижнюю панель с клавиатурой</string>
+    <string name="preference_show_bottom_bar_with_keyboard_summary">В режиме поиска вы можете скрыть нижнюю панель, чтобы освободить больше места для клавиатуры. Активируйте эту опцию, если предпочитаете оставлять панель видимой во время набора текста.</string>
 </resources>

@@ -13,10 +13,12 @@
     <string name="coincidencias">coincidencias</string>
     <plurals name="coincidencias">
         <item quantity="one">%d coincidencia</item>
+        <item quantity="many">%d coincidencias</item>
         <item quantity="other">%d coincidencias</item>
     </plurals>
     <plurals name="capturing_groups">
         <item quantity="one">%d grupo capturado</item>
+        <item quantity="many">%d grupos capturados</item>
         <item quantity="other">%d grupos capturados</item>
     </plurals>
     <string name="txt_busqueda_title">Búsqueda</string>
@@ -251,5 +253,13 @@
     <string name="btn_view_details_list">Ver detalles de %1$s</string>
     <string name="choose_option_dialog_upper_lower">Elige opción</string>
     <string name="settings_theme_title">Tema</string>
+    <string name="image_of_portugal">Imagen de Portugal</string>
+    <string name="toast_nothing_to_be_copied">Nada para copiar</string>
+    <string name="toast_hightling_results_copied">Se copiaron los resultados resaltados.</string>
+    <string name="toast_non_hightling_results_copied">Se copiaron los resultados no resaltados.</string>
+    <string name="mnu_copy_highlighted_results">Copiar resultados resaltados</string>
+    <string name="mnu_copy_non_highlighted_results">Copiar resultados no resaltados</string>
+    <string name="preference_show_bottom_bar_with_keyboard_title">Mostrar Barra Inferior con Teclado</string>
+    <string name="preference_show_bottom_bar_with_keyboard_summary">En la búsqueda, puedes ocultar la barra inferior para tener más espacio para el teclado. Activa esta opción si prefieres mantener la barra visible al escribir.</string>
 </resources>
 

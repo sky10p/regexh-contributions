@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="dataHelpLeft">
+    <array name="dataHelp">
         <item>Cuantificadores</item>
         <item>. Cualquier Carácter</item>
         <item>* Cero o más</item>
@@ -19,9 +19,6 @@
         <item>Anchors</item>
         <item>^ Comienzo de linea</item>
         <item>$ Final de linea</item>
-    </array>
-
-    <array name="dataHelpRight">
         <item>Escaped Carácteres(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -37,7 +34,6 @@
         <item>(?!abc) Looahead Negativo</item>
         <item>(?&lt;=abc) Lookbehind Positivo</item>
         <item>(?&lt;!abc) Lookbehind Negativo</item>
-
     </array>
 
     <array name="settings_options_theme_alias">

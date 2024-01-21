@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="dataHelpLeft">
+    <array name="dataHelp">
         <item>Кванторы</item>
         <item>. Любой символ</item>
         <item>* Ноль или более</item>
@@ -19,15 +19,6 @@
         <item>Привязка</item>
         <item>^ Начало линии</item>
         <item>$ Конец линии</item>
-    </array>
-
-    <array name="dataHelpLeftTitles">
-        <item>0</item>
-        <item>8</item>
-        <item>15</item>
-    </array>
-
-    <array name="dataHelpRight">
         <item>Символы игнорированы(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -43,13 +34,8 @@
         <item>(?!abc) Отрицательная группа</item>
         <item>(?&lt;=abc) Позитивный взгляд назад</item>
         <item>(?&lt;!abc) Взгляд назад отрицательный</item>
-
     </array>
 
-    <array name="dataHelpRightTitles">
-        <item>0</item>
-        <item>3</item>
-    </array>
 
     <array name="settings_options_theme_alias">
         <item>Дефолт</item>

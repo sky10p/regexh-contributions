@@ -139,4 +139,12 @@
         <p>In this case the number 26 in hexadecimal is 54 in decimal</p>ç
         <p>It will capture character 4 (ascii 54)</p>
     </item>
+
+    <item search="\\1">
+        <p>Expression that allows reusing a captured group by its number.</p>
+        <p>For example, to match the text "hello hello", you could use the expression "({line}w{5}){line}s{line}1"</p>
+        <p>{line}1 refers to the first captured group</p>
+        <p>This will match the text "hello hello"</p>
+    </item>
+
 </manual>

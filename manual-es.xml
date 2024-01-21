@@ -140,4 +140,13 @@
         <p>En este caso el número 26 en hexadecimal es el 54 en decimal</p>ç
         <p>Capturará por tanto el carácter 4(ascii 54)</p>
     </item>
+
+    <item search="\\1">
+        <p>Expresión que permite obtener un grupo de nuevo por su número.</p>
+        <p>Por ejemplo si queremos encontrar el texto "hola hola", podríamos usar la expresión "({line}w{4}){line}s{line}1"</p>
+        <p>{line}1 hace referencia al primer grupo</p>
+        <p>Capturará el texto "hola hola"</p>
+
+    </item>
+
 </manual>

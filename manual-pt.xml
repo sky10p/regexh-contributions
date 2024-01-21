@@ -96,4 +96,11 @@
         <p>Na forma uFFFF, onde F é um número hexadecimal válido (0-9 e A-F)</p>
         <p>Neste caso, o número 26 em hexadecimal é 54 em decimal</p>ç        <p>Ele irá capturar o personagem 4 (ascii 54)</p>
     </item>
+
+    <item search="\\1">
+        <p>Expressão que permite reutilizar um grupo capturado pelo seu número.</p>
+        <p>Por exemplo, para combinar o texto "hello hello", você poderia usar a expressão "({line}w{5}){line}s{line}1"</p>
+        <p>{line}1 refere-se ao primeiro grupo capturado</p>
+        <p>Isso corresponderá ao texto "hello hello"</p>
+    </item>
 </manual>

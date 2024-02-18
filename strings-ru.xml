@@ -263,5 +263,7 @@
     <string name="preference_show_bottom_bar_with_keyboard_title">Показывать нижнюю панель с клавиатурой</string>
     <string name="preference_show_bottom_bar_with_keyboard_summary">В режиме поиска вы можете скрыть нижнюю панель, чтобы освободить больше места для клавиатуры. Активируйте эту опцию, если предпочитаете оставлять панель видимой во время набора текста.</string>
     <string name="execution_time">%1$.2f мс</string>
-
+    <string name="nameErrorExplain">Ошибка</string>
+    <string name="preference_language_title">"Язык "</string>
+    <string name="preference_language_summary">Выберите предпочитаемый язык интерфейса приложения.</string>
 </resources>

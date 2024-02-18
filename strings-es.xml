@@ -262,5 +262,8 @@
     <string name="preference_show_bottom_bar_with_keyboard_title">Mostrar Barra Inferior con Teclado</string>
     <string name="preference_show_bottom_bar_with_keyboard_summary">En la búsqueda, puedes ocultar la barra inferior para tener más espacio para el teclado. Activa esta opción si prefieres mantener la barra visible al escribir.</string>
     <string name="execution_time">%1$.2f ms</string>
+    <string name="nameErrorExplain">Error</string>
+    <string name="preference_language_title">Idioma</string>
+    <string name="preference_language_summary">Selecciona tu idioma preferido para la interfaz de la aplicación.</string>
 </resources>
 

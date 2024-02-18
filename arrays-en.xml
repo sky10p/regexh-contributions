@@ -55,4 +55,20 @@
         <item>light</item>
         <item>dark</item>
     </array>
+
+    <array name="settings_options_language_alias">
+        <item>By default</item>
+        <item>Spanish</item>
+        <item>English</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+    </array>
+
+    <array name="settings_options_language">
+        <item>default</item>
+        <item>es</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ja</item>
+    </array>
 </resources>

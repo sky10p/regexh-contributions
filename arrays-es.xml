@@ -48,4 +48,20 @@
         <item>dark</item>
     </array>
 
+    <array name="settings_options_language_alias">
+        <item>Por defecto</item>
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Ruso</item>
+        <item>Japonés</item>
+    </array>
+
+    <array name="settings_options_language">
+        <item>default</item>
+        <item>es</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ja</item>
+    </array>
+
 </resources>

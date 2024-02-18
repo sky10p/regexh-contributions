@@ -46,4 +46,21 @@
         <item>light</item>
         <item>dark</item>
     </array>
+
+    <array name="settings_options_language_alias">
+        <item>Por padrão</item>
+        <item>Espanhol</item>
+        <item>Inglês</item>
+        <item>Russo</item>
+        <item>Japonês</item>
+    </array>
+
+
+    <array name="settings_options_language">
+        <item>default</item>
+        <item>es</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ja</item>
+    </array>
 </resources>

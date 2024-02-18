@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dataHelp">
+        <item>量指定子</item>
+        <item>. 任意の文字</item>
+        <item>* ゼロ回以上</item>
+        <item>+ 一回以上</item>
+        <item>\? ゼロ回または一回</item>
+        <item>{n} n回</item>
+        <item>{n,} n回以上</item>
+        <item>{n,m} n回からm回</item>
+        <item>文字</item>
+        <item>\\d 数字</item>
+        <item>\\D 非数字</item>
+        <item>\\w 英数字</item>
+        <item>\\W 非英数字</item>
+        <item>\\s 空白文字</item>
+        <item>\\S 非空白文字</item>
+        <item>アンカー</item>
+        <item>^ 行の開始</item>
+        <item>$ 行の終了</item>
+        <item>エスケープされた文字(\\)</item>
+        <item>([{\^-=$!</item>
+        <item>|]})?*+.\</item>
+        <item>グループと範囲</item>
+        <item>[abc] 範囲 (a, bまたはc)</item>
+        <item>[^abc] a, b, c以外</item>
+        <item>[a-z] aからzまで</item>
+        <item>[1-9] 1から9まで</item>
+        <item>(abc) abcをグループ化</item>
+        <item>x|y xまたはyの文字</item>
+        <item>(?:abc) キャプチャされないグループ</item>
+        <item>(?=abc) 肯定的先読み</item>
+        <item>(?!abc) 否定的先読み</item>
+        <item>(?&lt;=abc) 肯定的後読み</item>
+        <item>(?&lt;!abc) 否定的後読み</item>
+    </array>
+
+
+    <array name="settings_options_theme_alias">
+        <item>デフォルト</item>
+        <item>ライトテーマ</item>
+        <item>ダークテーマ</item>
+    </array>
+
+    <array name="settings_options_theme">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+    </array>
+
+    <array name="settings_options_language_alias">
+        <item>デフォルトで</item>
+        <item>スペイン語</item>
+        <item>英語</item>
+        <item>ロシア語</item>
+        <item>日本語</item>
+    </array>
+
+    <array name="settings_options_language">
+        <item>default</item>
+        <item>es</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ja</item>
+    </array>
+
+
+</resources>

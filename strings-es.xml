@@ -33,8 +33,8 @@
     <string name="menu_build_navbar">Diseñar</string>
     <string name="menu_default_terms_navbar">Predefinidas</string>
     <string name="menu_manual_navbar">Manual</string>
-    <string name="regex_explain_character_description1">"Coincide con la letra "</string>
-    <string name="regex_explain_character_description2">"Código ASCII "</string>
+    <string name="regex_explain_character_ascii_description">Coincide con la letra %1$s (código ASCII %2$d)</string>
+    <string name="regex_explain_character_unicode_description">Coincide con el carácter %1$s (código Unicode %2$s)</string>
     <string name="regex_explain_character_name">Carácter</string>
     <string name="regex_explain_word_description">Coincide con cualquier carácter(alfanumérico)</string>
     <string name="regex_explain_word_name">Letra</string>
@@ -270,5 +270,7 @@
     <string name="choose_regex_dialog_message">Puedes elegir una expresión regular para aplicar al texto actual</string>
     <string name="toast_name_regular_expression_empty">"El nombre de la expresión regular está vacío"</string>
     <string name="error_import_select_file">No has seleccionado correctamente el archivo</string>
+    <string name="preference_characters_code_title">Código de caracteres</string>
+    <string name="preference_characters_code_summary">Elige tu código de caracteres preferido (ascii o unicode)</string>
 </resources>
 

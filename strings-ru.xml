@@ -36,8 +36,8 @@
     <string name="menu_manual_navbar">Таблица выражений</string>
     <string name="regex_explain_word_name">Слово</string>
     <string name="regex_explain_character_name">Символ</string>
-    <string name="regex_explain_character_description1">"Совпадает с буквой "</string>
-    <string name="regex_explain_character_description2">"ASCII код "</string>
+    <string name="regex_explain_character_ascii_description">Соответствует букве %1$s (код ASCII %2$d)</string>
+    <string name="regex_explain_character_unicode_description">Соответствует символу %1$s (код Unicode %2$s)</string>
     <string name="regex_explain_word_description">Совпадает с любым символом(буквенно-цифровой)</string>
     <string name="txt_explain_title">Объяснение</string>
     <string name="regex_explain_dot_name">Точка</string>
@@ -271,4 +271,7 @@
     <string name="choose_regex_dialog_message">Вы можете выбрать регулярное выражение для применения к текущему тексту</string>
     <string name="toast_name_regular_expression_empty">Имя регулярного выражения пусто</string>
     <string name="error_import_select_file">Вы не правильно выбрали файл</string>
+    <string name="preference_characters_code_title">Код символов</string>
+    <string name="preference_characters_code_summary">Выберите предпочитаемый код символов (ascii или unicode)</string>
+
 </resources>

@@ -31,8 +31,8 @@
     <string name="menu_build_navbar">設計</string>
     <string name="menu_default_terms_navbar">定義済み</string>
     <string name="menu_manual_navbar">マニュアル</string>
-    <string name="regex_explain_character_description1">"次の文字と一致 "</string>
-    <string name="regex_explain_character_description2">"ASCIIコード "</string>
+    <string name="regex_explain_character_ascii_description">文字 %1$s に一致します（ASCIIコード %2$d）</string>
+    <string name="regex_explain_character_unicode_description">文字 %1$s に一致します（Unicodeコード %2$s）</string>
     <string name="regex_explain_character_name">文字</string>
     <string name="regex_explain_word_description">任意の英数字に一致</string>
     <string name="regex_explain_word_name">文字</string>
@@ -271,6 +271,8 @@
     <string name="choose_regex_dialog_message">您可以选择一个正则表达式来应用于当前文本</string>
     <string name="toast_name_regular_expression_empty">"正規表現の名前が空です"</string>
     <string name="error_import_select_file">ファイルを正しく選択していません</string>
+    <string name="preference_characters_code_title">文字コード</string>
+    <string name="preference_characters_code_summary">好みの文字コード（ASCIIまたはUnicode）を選択してください</string>
 
 </resources>
 

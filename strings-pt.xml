@@ -32,8 +32,8 @@
     <string name="menu_manual_navbar">Manual</string>
     <string name="regex_explain_word_name">Alfanumérico</string>
     <string name="regex_explain_character_name">Caractere</string>
-    <string name="regex_explain_character_description1">"Corresponde a uma letra "</string>
-    <string name="regex_explain_character_description2">"Código ASCII "</string>
+    <string name="regex_explain_character_ascii_description">Corresponde à letra %1$s (código ASCII %2$d)</string>
+    <string name="regex_explain_character_unicode_description">Corresponde ao caractere %1$s (código Unicode %2$s)</string>
     <string name="regex_explain_word_description">Corresponde a qualquer caractere alfanumérico</string>
     <string name="txt_explain_title">Explicação</string>
     <string name="regex_explain_dot_name">Ponto</string>
@@ -267,4 +267,7 @@
     <string name="choose_regex_dialog_message">Você pode escolher uma expressão regular para aplicar ao texto atual</string>
     <string name="toast_name_regular_expression_empty">"O nome da expressão regular está vazio"</string>
     <string name="error_import_select_file">Você não selecionou o arquivo corretamente</string>
+    <string name="preference_characters_code_title">Código dos caracteres</string>
+    <string name="preference_characters_code_summary">Escolha seu código de caracteres preferido (ascii ou unicode)</string>
+
 </resources>

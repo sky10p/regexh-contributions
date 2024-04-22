@@ -63,4 +63,13 @@
         <item>ru</item>
         <item>ja</item>
     </array>
+
+    <string-array name="settings_options_characters_code_alias">
+        <item>ASCII</item>
+        <item>Unicode</item>
+    </string-array>
+    <string-array name="settings_options_characters_code">
+        <item>ascii</item>
+        <item>unicode</item>
+    </string-array>
 </resources>

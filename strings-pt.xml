@@ -129,7 +129,7 @@
     <string name="vocal">Vogal</string>
     <string name="mnu_clear">Limpar</string>
     <string name="mnu_save">Salvar</string>
-    <string name="toast_regex_empty">O campo regex está vazio</string>
+    <string name="toast_regex_and_text_empty">Regex e campo de texto estão vazios</string>
     <string name="toast_regex_not_valid">O campo regex não é válido</string>
     <string name="dialog_cancel">Cancelar</string>
     <string name="dialog_cancel_message">Você cancelou a caixa de diálogo</string>

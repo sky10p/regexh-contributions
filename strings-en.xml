@@ -129,7 +129,7 @@
     <string name="vocal">Vocal</string>
     <string name="mnu_clear">Clear</string>
     <string name="mnu_save">Save</string>
-    <string name="toast_regex_empty">Regex Field is empty</string>
+    <string name="toast_regex_and_text_empty">Regex and text field are empty</string>
     <string name="toast_regex_not_valid">Regex Field is not valid</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_cancel_message">You canceled the dialog</string>

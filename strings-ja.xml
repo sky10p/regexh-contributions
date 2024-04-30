@@ -124,7 +124,7 @@
     <string name="regex_no_correct">正規表現の文字を使用しないでください、処理できませんでした</string>
     <string name="mnu_clear">クリア</string>
     <string name="mnu_save">保存</string>
-    <string name="toast_regex_empty">正規表現フィールドが空です</string>
+    <string name="toast_regex_and_text_empty">正規表現とテキストフィールドが空です</string>
     <string name="toast_regex_not_valid">正規表現が無効です</string>
     <string name="name">名前</string>
     <string name="description">説明</string>

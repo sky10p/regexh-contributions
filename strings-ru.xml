@@ -125,7 +125,7 @@
     <string name="vocal">Вокал</string>
     <string name="mnu_clear">Очистить</string>
     <string name="mnu_save">Сохранить</string>
-    <string name="toast_regex_empty">Поле регулярного выражения пустое</string>
+    <string name="toast_regex_and_text_empty">Регулярное выражение и текстовое поле пусты</string>
     <string name="toast_regex_not_valid">Недопустимое поле регулярного выражения</string>
     <string name="dialog_cancel">Отмена</string>
     <string name="dialog_cancel_message">Вы отменили диалог</string>

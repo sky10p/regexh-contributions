@@ -125,7 +125,7 @@
     <string name="regex_no_correct">No uses caracteres regex, no se ha podido procesar</string>
     <string name="mnu_clear">Limpiar</string>
     <string name="mnu_save">Guardar</string>
-    <string name="toast_regex_empty">El campo regex está vacío</string>
+    <string name="toast_regex_and_text_empty">El campo regex y el texto están vacío</string>
     <string name="toast_regex_not_valid">El regex no es válido</string>
     <string name="name">Nombre</string>
     <string name="description">Descripción</string>

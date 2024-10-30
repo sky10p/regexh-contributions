@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dataHelp">
+        <item>量词</item>
+        <item>. 任意字符</item>
+        <item>* 零次或更多</item>
+        <item>+ 一次或更多</item>
+        <item>\? 零次或一次</item>
+        <item>{n} n 次</item>
+        <item>{n,} n 次或更多</item>
+        <item>{n,m} n 到 m 次</item>
+        <item>字符</item>
+        <item>\d 数字</item>
+        <item>\D 非数字</item>
+        <item>\w 字母</item>
+        <item>\W 非字母</item>
+        <item>\s 空白字符</item>
+        <item>\S 非空白字符</item>
+        <item>定位符</item>
+        <item>^ 行首</item>
+        <item>$ 行尾</item>
+        <item>转义字符 (\)</item>
+        <item>([{{\^-=$!</item>
+        <item>|]}})?*+.\</item>
+        <item>组和范围</item>
+        <item>[abc] 范围 (a, b 或 c)</item>
+        <item>[^abc] 非 a, b 或 c</item>
+        <item>[a-z] 从 a 到 z</item>
+        <item>[1-9] 从 1 到 9</item>
+        <item>(abc) 组 abc</item>
+        <item>x|y 字符 x 或 y</item>
+        <item>(?:abc) 非捕获组</item>
+        <item>(?=abc) 正向预查</item>
+        <item>(?!abc) 负向预查</item>
+        <item>(?&lt;=abc) 正向后发</item>
+        <item>(?&lt;!abc) 负向后发</item>
+    </array>
+
+    <array name="dataHelpTitles">
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+        <item>18</item>
+        <item>21</item>
+    </array>
+
+    <array name="settings_options_theme_alias">
+        <item>默认</item>
+        <item>浅色主题</item>
+        <item>深色主题</item>
+    </array>
+
+    <array name="settings_options_theme">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+    </array>
+
+    <array name="settings_options_language_alias">
+        <item>默认</item>
+        <item>西班牙语</item>
+        <item>英语</item>
+        <item>俄语</item>
+        <item>葡萄牙语</item>
+        <item>日语</item>
+        <item>简体中文</item>
+    </array>
+
+    <array name="settings_options_language">
+        <item>default</item>
+        <item>es</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>ja</item>
+        <item>zh</item>
+    </array>
+
+    <string-array name="settings_options_characters_code_alias">
+        <item>ASCII</item>
+        <item>Unicode</item>
+    </string-array>
+
+    <string-array name="settings_options_characters_code">
+        <item>ascii</item>
+        <item>unicode</item>
+    </string-array>
+</resources>

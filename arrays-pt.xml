@@ -52,7 +52,9 @@
         <item>Espanhol</item>
         <item>Inglês</item>
         <item>Russo</item>
+        <item>Português</item>
         <item>Japonês</item>
+        <item>Chinês Simplificado</item>
     </array>
 
 
@@ -61,7 +63,9 @@
         <item>es</item>
         <item>en</item>
         <item>ru</item>
+        <item>pt</item>
         <item>ja</item>
+        <item>zh</item>
     </array>
 
     <string-array name="settings_options_characters_code_alias">

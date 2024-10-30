@@ -272,5 +272,14 @@
     <string name="error_import_select_file">No has seleccionado correctamente el archivo</string>
     <string name="preference_characters_code_title">Código de caracteres</string>
     <string name="preference_characters_code_summary">Elige tu código de caracteres preferido (ascii o unicode)</string>
+    <string name="mnu_benchmark">Benchmark</string>
+    <string name="benchmark_process_completed">Proceso completado</string>
+    <string name="benchmark_execution_info">Ejecutado un total de %d ciclos en %d segundos</string>
+    <string name="benchmark_performance_summary">Resumen de rendimiento</string>
+    <string name="benchmark_average_time">Tiempo promedio: %.4f %s</string>
+    <string name="benchmark_execution_min">Más rápido: %.4f %s</string>
+    <string name="benchmark_execution_max">Más lento: %.4f %s</string>
+    <string name="benchmark_execution_note">Nota: Estos valores dependen de las condiciones del sistema y pueden variar ligeramente.</string>
+    <string name="benchmark_dismiss">Cerrar</string>
 </resources>
 

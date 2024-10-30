@@ -273,5 +273,14 @@
     <string name="error_import_select_file">Вы не правильно выбрали файл</string>
     <string name="preference_characters_code_title">Код символов</string>
     <string name="preference_characters_code_summary">Выберите предпочитаемый код символов (ascii или unicode)</string>
+    <string name="mnu_benchmark">Бенчмарк</string>
+    <string name="benchmark_process_completed">Процесс завершен</string>
+    <string name="benchmark_execution_info">Выполнено всего %d циклов за %d секунд</string>
+    <string name="benchmark_performance_summary">Сводка производительности</string>
+    <string name="benchmark_average_time">Среднее время: %.4f %s</string>
+    <string name="benchmark_execution_min">Самое быстрое: %.4f %s</string>
+    <string name="benchmark_execution_max">Самое медленное: %.4f %s</string>
+    <string name="benchmark_execution_note">Примечание: Эти значения зависят от состояния системы и могут немного изменяться.</string>
+    <string name="benchmark_dismiss">Закрыть</string>
 
 </resources>

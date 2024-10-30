@@ -54,7 +54,9 @@
         <item>Испанский</item>
         <item>Английский</item>
         <item>Русский</item>
+        <item>Португальский</item>
         <item>Японский</item>
+        <item>Упрощённый китайский</item>
     </array>
 
     <array name="settings_options_language">
@@ -62,7 +64,9 @@
         <item>es</item>
         <item>en</item>
         <item>ru</item>
+        <item>pt</item>
         <item>ja</item>
+        <item>zh</item>
     </array>
 
     <string-array name="settings_options_characters_code_alias">

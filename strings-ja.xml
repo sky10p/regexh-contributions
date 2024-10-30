@@ -273,6 +273,15 @@
     <string name="error_import_select_file">ファイルを正しく選択していません</string>
     <string name="preference_characters_code_title">文字コード</string>
     <string name="preference_characters_code_summary">好みの文字コード（ASCIIまたはUnicode）を選択してください</string>
+    <string name="mnu_benchmark">ベンチマーク</string>
+    <string name="benchmark_process_completed">プロセス完了</string>
+    <string name="benchmark_execution_info">合計 %d サイクルを %d 秒で実行しました</string>
+    <string name="benchmark_performance_summary">パフォーマンス概要</string>
+    <string name="benchmark_average_time">平均時間：%.4f %s</string>
+    <string name="benchmark_execution_min">最速：%.4f %s</string>
+    <string name="benchmark_execution_max">最遅：%.4f %s</string>
+    <string name="benchmark_execution_note">注意：これらの値はシステムの状態に依存しており、若干の変動がある可能性があります。</string>
+    <string name="benchmark_dismiss">閉じる</string>
 
 </resources>
 

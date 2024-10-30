@@ -276,4 +276,13 @@
     <string name="error_import_select_file">You have not correctly selected the file</string>
     <string name="preference_characters_code_title">Characters code</string>
     <string name="preference_characters_code_summary">Choose your preferred character code (ascii or unicode)</string>
+    <string name="mnu_benchmark">Benchmark</string>
+    <string name="benchmark_process_completed">Process Completed</string>
+    <string name="benchmark_execution_info">Executed a total of %d cycles in %d seconds</string>
+    <string name="benchmark_performance_summary">Performance Summary</string>
+    <string name="benchmark_average_time">Average Time: %.4f %s</string>
+    <string name="benchmark_execution_min">Fastest: %.4f %s</string>
+    <string name="benchmark_execution_max">Slowest: %.4f %s</string>
+    <string name="benchmark_execution_note">Note: These values depend on system conditions and may vary slightly.</string>
+    <string name="benchmark_dismiss">Dismiss</string>
 </resources>

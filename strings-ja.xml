@@ -108,8 +108,8 @@
     <string name="final_de_linea">行の終わり</string>
     <string name="component_anything">任意の文字</string>
     <string name="component_space">スペース</string>
-    <string name="components_basics_title">基本コンポーネント</string>
-    <string name="components_custom_title">カスタムコンポーネント</string>
+    <string name="components_basics_title">基本</string>
+    <string name="components_custom_title">カスタム</string>
     <string name="component_contains_hint">含む</string>
     <string name="component_no_contains_hint">含まない</string>
 
@@ -125,6 +125,7 @@
     <string name="mnu_clear">クリア</string>
     <string name="mnu_save">保存</string>
     <string name="toast_regex_and_text_empty">正規表現とテキストフィールドが空です</string>
+    <string name="toast_regex_or_text_empty">正規表現またはテキストフィールドが空です</string>
     <string name="toast_regex_not_valid">正規表現が無効です</string>
     <string name="name">名前</string>
     <string name="description">説明</string>
@@ -173,7 +174,7 @@
     <string name="default_term_comment_example">/* これはコメントです */</string>
     <string name="default_term_comment_name">複数行コメント</string>
     <string name="default_term_comment_description">コメントを検索し、その内容をグループ化します。</string>
-    <string name="escaped_components">エスケープされたコンポーネント</string>
+    <string name="escaped_components">エスケープ</string>
     <string name="error_matching"><![CDATA[フィールドに正しい値を入力してください（数字 > 0、max > min）]]></string>
     <string name="help">ヘルプ</string>
     <string name="help_quantifiers">量指定子</string>

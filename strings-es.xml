@@ -110,8 +110,8 @@
     <string name="final_de_linea">Final de línea</string>
     <string name="component_anything">Cualquier carácter</string>
     <string name="component_space">Espacio</string>
-    <string name="components_basics_title">Componentes Básicos</string>
-    <string name="components_custom_title">Componentes personalizados</string>
+    <string name="components_basics_title">Básico</string>
+    <string name="components_custom_title">Personalizado</string>
     <string name="component_contains_hint">Contiene</string>
     <string name="component_no_contains_hint">No Contiene</string>
     <string name="design_fragment_title">Diseña</string>
@@ -126,6 +126,7 @@
     <string name="mnu_clear">Limpiar</string>
     <string name="mnu_save">Guardar</string>
     <string name="toast_regex_and_text_empty">El campo regex y el texto están vacío</string>
+    <string name="toast_regex_or_text_empty">El campo regex o el texto están vacío</string>
     <string name="toast_regex_not_valid">El regex no es válido</string>
     <string name="name">Nombre</string>
     <string name="description">Descripción</string>
@@ -174,7 +175,7 @@
     <string name="default_term_comment_example">/* Esto es un comentario */</string>
     <string name="default_term_comment_name">Comentario Multiple</string>
     <string name="default_term_comment_description">Busca un comentario, y agrupa su contenido.</string>
-    <string name="escaped_components">Escaped Componentes</string>
+    <string name="escaped_components">Escapado</string>
     <string name="error_matching"><![CDATA[Inserta valores correctos en los campos(números > 0, max> min)]]></string>
     <string name="help">Ayuda</string>
     <string name="help_quantifiers">Cuantificadores</string>

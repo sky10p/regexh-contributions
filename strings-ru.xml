@@ -105,8 +105,8 @@
     <string name="component_contains_hint">Содержит</string>
     <string name="component_no_contains_hint">Не содержит</string>
     <string name="component_space">Пробел</string>
-    <string name="components_basics_title">Основные компоненты</string>
-    <string name="components_custom_title">Пользовательские компоненты</string>
+    <string name="components_basics_title">Базовый</string>
+    <string name="components_custom_title">Настраиваемый</string>
     <string name="consonant">Согласные</string>
     <string name="decimal">Плавающее</string>
     <string name="design_fragment_subtitle">Создание регулярных выражений с помощью действий</string>
@@ -126,6 +126,7 @@
     <string name="mnu_clear">Очистить</string>
     <string name="mnu_save">Сохранить</string>
     <string name="toast_regex_and_text_empty">Регулярное выражение и текстовое поле пусты</string>
+    <string name="toast_regex_or_text_empty">Регулярное выражение или текстовое поле пусты</string>
     <string name="toast_regex_not_valid">Недопустимое поле регулярного выражения</string>
     <string name="dialog_cancel">Отмена</string>
     <string name="dialog_cancel_message">Вы отменили диалог</string>
@@ -166,7 +167,7 @@
     <string name="delete">Удалить</string>
     <string name="edit">Изменить</string>
     <string name="error_matching"><![CDATA[Вставьте правильные значения в полях (числа&gt; 0, макс.&gt; мин)]]></string>
-    <string name="escaped_components">Исключенные компоненты</string>
+    <string name="escaped_components">Экранированный</string>
     <string name="help">Помощь</string>
     <string name="help_escaped">Игнорировать символ</string>
     <string name="help_quantifiers">Кванторы</string>

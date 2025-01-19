@@ -107,8 +107,8 @@
     <string name="component_contains_hint">包含</string>
     <string name="component_no_contains_hint">不包含</string>
     <string name="component_space">空白</string>
-    <string name="components_basics_title">基本组件</string>
-    <string name="components_custom_title">自定义组件</string>
+    <string name="components_basics_title">基础</string>
+    <string name="components_custom_title">自定义</string>
     <string name="consonant">组件</string>
     <string name="decimal">浮点型</string>
     <string name="design_fragment_subtitle">使用操作创建正则表达式</string>
@@ -128,6 +128,7 @@
     <string name="mnu_clear">清楚</string>
     <string name="mnu_save">保存</string>
     <string name="toast_regex_and_text_empty">正则表达式和文本字段为空</string>
+    <string name="toast_regex_or_text_empty">正则表达式或文本字段为空</string>
     <string name="toast_regex_not_valid">正则表达式字段无效</string>
     <string name="dialog_cancel">取消</string>
     <string name="dialog_cancel_message">您取消了对话</string>
@@ -168,7 +169,7 @@
     <string name="delete">删除</string>
     <string name="edit">编辑</string>
     <string name="error_matching"><![CDATA[在字段中插入正确的值(numbers > 0, max> min)]]></string>
-    <string name="escaped_components">转义组件</string>
+    <string name="escaped_components">转义</string>
     <string name="help">帮助</string>
     <string name="help_escaped">字符丢失</string>
     <string name="help_quantifiers">量词</string>

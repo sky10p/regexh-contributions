@@ -109,8 +109,8 @@
     <string name="component_contains_hint">Contém</string>
     <string name="component_no_contains_hint">Não Contém</string>
     <string name="component_space">Espaço</string>
-    <string name="components_basics_title">Componentes Básicos</string>
-    <string name="components_custom_title">Componentes Customizados</string>
+    <string name="components_basics_title">Básico</string>
+    <string name="components_custom_title">Personalizado</string>
     <string name="consonant">Consoante</string>
     <string name="decimal">Decimal</string>
     <string name="design_fragment_subtitle">Criar regex usando ações</string>
@@ -130,6 +130,7 @@
     <string name="mnu_clear">Limpar</string>
     <string name="mnu_save">Salvar</string>
     <string name="toast_regex_and_text_empty">Regex e campo de texto estão vazios</string>
+    <string name="toast_regex_or_text_empty">Regex ou campo de texto estão vazios</string>
     <string name="toast_regex_not_valid">O campo regex não é válido</string>
     <string name="dialog_cancel">Cancelar</string>
     <string name="dialog_cancel_message">Você cancelou a caixa de diálogo</string>
@@ -170,7 +171,7 @@
     <string name="delete">Excluir</string>
     <string name="edit">Editar</string>
     <string name="error_matching"><![CDATA[Insira valores corretos nos campos (número > 0, máx > mín)]]></string>
-    <string name="escaped_components">Caracteres com Escape</string>
+    <string name="escaped_components">Escape</string>
     <string name="help">Ajuda</string>
     <string name="help_escaped">Caracteres de Escape</string>
     <string name="help_quantifiers">Quantificadores</string>

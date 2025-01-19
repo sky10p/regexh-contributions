@@ -109,8 +109,8 @@
     <string name="component_contains_hint">Contains</string>
     <string name="component_no_contains_hint">No Contains</string>
     <string name="component_space">Space</string>
-    <string name="components_basics_title">Basic Components</string>
-    <string name="components_custom_title">Custom Components</string>
+    <string name="components_basics_title">Basic</string>
+    <string name="components_custom_title">Custom</string>
     <string name="consonant">Consonant</string>
     <string name="decimal">Float</string>
     <string name="design_fragment_subtitle">Create Regex using actions</string>
@@ -130,6 +130,7 @@
     <string name="mnu_clear">Clear</string>
     <string name="mnu_save">Save</string>
     <string name="toast_regex_and_text_empty">Regex and text field are empty</string>
+    <string name="toast_regex_or_text_empty">Regex or text field is empty</string>
     <string name="toast_regex_not_valid">Regex Field is not valid</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_cancel_message">You canceled the dialog</string>
@@ -172,7 +173,7 @@
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
     <string name="error_matching"><![CDATA[Insert correct values in fields (numbers > 0, max> min)]]></string>
-    <string name="escaped_components">Escaped Components</string>
+    <string name="escaped_components">Escape</string>
     <string name="help">Help</string>
     <string name="help_escaped">Character Escaped</string>
     <string name="help_quantifiers">Quantifiers</string>

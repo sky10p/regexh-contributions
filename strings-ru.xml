@@ -283,5 +283,7 @@
     <string name="benchmark_execution_max">Самое медленное: %.4f %s</string>
     <string name="benchmark_execution_note">Примечание: Эти значения зависят от состояния системы и могут немного изменяться.</string>
     <string name="benchmark_dismiss">Закрыть</string>
+    <string name="mnu_choose_text_file">Открыть текстовый файл</string>
+    <string name="error_reading_text_file_content">Ошибка при чтении файла с текстовым содержимым</string>
 
 </resources>

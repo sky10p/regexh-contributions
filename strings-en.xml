@@ -286,4 +286,6 @@
     <string name="benchmark_execution_max">Slowest: %.4f %s</string>
     <string name="benchmark_execution_note">Note: These values depend on system conditions and may vary slightly.</string>
     <string name="benchmark_dismiss">Dismiss</string>
+    <string name="mnu_choose_text_file">Open text file</string>
+    <string name="error_reading_text_file_content">Error reading text content file</string>
 </resources>

@@ -277,4 +277,6 @@
     <string name="benchmark_execution_max">最慢：%.4f %s</string>
     <string name="benchmark_execution_note">注意：这些值依赖于系统条件，可能会略有波动。</string>
     <string name="benchmark_dismiss">关闭</string>
+    <string name="mnu_choose_text_file">打开文本文件</string>
+    <string name="error_reading_text_file_content">读取文本内容文件时发生错误</string>
 </resources>

@@ -284,5 +284,6 @@
     <string name="benchmark_dismiss">Cerrar</string>
     <string name="mnu_choose_text_file">Abrir archivo de texto</string>
     <string name="error_reading_text_file_content">Error al leer el archivo de contenido de texto</string>
+    <string name="error_file_access_android_11">Por restricciones de Android, para importar archivos .rgx desde Android 11 o superior, usa el botón de importar dentro de la app.</string>
 </resources>
 

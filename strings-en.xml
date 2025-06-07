@@ -288,4 +288,5 @@
     <string name="benchmark_dismiss">Dismiss</string>
     <string name="mnu_choose_text_file">Open text file</string>
     <string name="error_reading_text_file_content">Error reading text content file</string>
+    <string name="error_file_access_android_11">Due to Android restrictions, to import .rgx files on Android 11 or higher, use the import button inside the app.</string>
 </resources>

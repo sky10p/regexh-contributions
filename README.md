@@ -1,7 +1,7 @@
 # RegexH - Translations
 
 <p align="center">
-<a href="https://github.com/sky10p/regexh-contributions/blob/master/donate/donate.md" alt="Donate shield"><img src="./src/doc/donate/donate-bitcoin.svg" /></a>
+<a href="https://github.com/sky10p/regexh-contributions/blob/master/donate/donate.md" alt="Donate shield"><img src="./donate/donate-bitcoin.svg" /></a>
 </p>
 
 Help to translate the app of RegexH to more languages

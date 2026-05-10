@@ -10,15 +10,17 @@
         <item>{n,} n 次或更多</item>
         <item>{n,m} n 到 m 次</item>
         <item>字符</item>
-        <item>\d 数字</item>
-        <item>\D 非数字</item>
-        <item>\w 字母</item>
-        <item>\W 非字母</item>
-        <item>\s 空白字符</item>
-        <item>\S 非空白字符</item>
+        <item>\\d 数字</item>
+        <item>\\D 非数字</item>
+        <item>\\w 字母</item>
+        <item>\\W 非字母</item>
+        <item>\\s 空白字符</item>
+        <item>\\S 非空白字符</item>
         <item>定位符</item>
         <item>^ 行首</item>
         <item>$ 行尾</item>
+        <item>\\b 单词边界</item>
+        <item>\\B 非单词边界</item>
         <item>转义字符 (\)</item>
         <item>([{{\^-=$!</item>
         <item>|]}})?*+.\</item>
@@ -40,8 +42,8 @@
         <item>0</item>
         <item>8</item>
         <item>15</item>
-        <item>18</item>
-        <item>21</item>
+        <item>20</item>
+        <item>23</item>
     </array>
 
     <array name="settings_options_theme_alias">
@@ -84,5 +86,15 @@
     <string-array name="settings_options_characters_code">
         <item>ascii</item>
         <item>unicode</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator_alias">
+        <item>无分隔符（连接）</item>
+        <item>空格</item>
+        <item>换行符</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator">
+        <item>none</item>
+        <item>space</item>
+        <item>linebreak</item>
     </string-array>
 </resources>

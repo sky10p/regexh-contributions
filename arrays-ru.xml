@@ -19,6 +19,8 @@
         <item>Привязка</item>
         <item>^ Начало линии</item>
         <item>$ Конец линии</item>
+        <item>\\b Граница слова</item>
+        <item>\\B Не граница слова</item>
         <item>Символы игнорированы(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -76,5 +78,15 @@
     <string-array name="settings_options_characters_code">
         <item>ascii</item>
         <item>unicode</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator_alias">
+        <item>Без разделителя (объединенный)</item>
+        <item>Пробел</item>
+        <item>Перенос строки</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator">
+        <item>none</item>
+        <item>space</item>
+        <item>linebreak</item>
     </string-array>
 </resources>

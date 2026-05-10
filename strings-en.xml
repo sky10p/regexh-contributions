@@ -113,7 +113,7 @@
     <string name="components_custom_title">Custom</string>
     <string name="consonant">Consonant</string>
     <string name="decimal">Float</string>
-    <string name="design_fragment_subtitle">Create Regex using actions</string>
+    <string name="design_fragment_subtitle">Build regex visually</string>
     <string name="design_fragment_title">Design</string>
     <string name="digit">Digit</string>
     <string name="regular_expression">Regular Expression</string>
@@ -169,6 +169,90 @@
     <string name="with_limit">With limit</string>
     <string name="without_limit">Unlimited</string>
     <string name="maximum">Limit</string>
+    <string name="design_regex_preview">Regex preview</string>
+    <string name="design_regex_placeholder">Your regex appears here</string>
+    <string name="design_copy_regex">Copy regex</string>
+    <string name="design_regex_copied">Regex copied</string>
+    <string name="design_common_elements">Common elements</string>
+    <string name="design_tip_basic_title">Tap an element to add it to your pattern.</string>
+    <string name="design_tip_basic_subtitle">Each card shows the regex that will be inserted.</string>
+    <string name="design_text_matching">Text matching</string>
+    <string name="design_text_matching_description">Add text to find, or build a pattern that excludes text.</string>
+    <string name="design_contains">Contains</string>
+    <string name="design_does_not_contain">Doesn\'t contain</string>
+    <string name="design_enter_text_or_pattern">Enter text</string>
+    <string name="design_example_contains">Example: a.b becomes a\\.b</string>
+    <string name="design_example_not_contains">Example: debug becomes ^(?!.*debug).*$</string>
+    <string name="design_add_contains">Add contains</string>
+    <string name="design_add_does_not_contain">Add doesn\'t contain</string>
+    <string name="design_empty_text_error">Enter text first</string>
+    <string name="design_repeat_previous_element">Repeat current expression</string>
+    <string name="design_repeat_description">Build an expression first, then choose how many times the whole expression repeats.</string>
+    <string name="design_repeat_count">Count</string>
+    <string name="design_repeat_range">Use range</string>
+    <string name="design_min_least">Min</string>
+    <string name="design_max_most">Max</string>
+    <string name="design_no_upper_limit">No upper limit</string>
+    <string name="design_apply_repetition">Apply repetition</string>
+    <string name="design_repetition_empty_preview">Add text or an element first to enable repetition.</string>
+    <string name="design_repetition_ready">This repetition applies to the whole expression in the preview.</string>
+    <string name="design_repeat_required_error">Required</string>
+    <string name="design_repeat_positive_error">Use a number greater than 0</string>
+    <string name="design_repeat_max_error">Max must be greater than or equal to min</string>
+    <string name="design_escape_intro_title">Escape matches the character itself.</string>
+    <string name="design_escape_intro_body">Adds \\ before special regex characters.</string>
+    <string name="design_escape_example_inline">a.b -> a\\.b</string>
+    <string name="design_escape_example">Example</string>
+    <string name="design_escape_special_characters">Escape special characters</string>
+    <string name="design_escape_tip_title">Tip: Tap any item to add it to your pattern.</string>
+    <string name="design_escape_tip_subtitle">The escaped character will be inserted at the cursor.</string>
+    <string name="design_basic_symbol_letter" translatable="false">Aa</string>
+    <string name="design_basic_symbol_word" translatable="false">W</string>
+    <string name="design_basic_symbol_vowel" translatable="false">AE</string>
+    <string name="design_basic_symbol_consonant" translatable="false">C</string>
+    <string name="design_basic_symbol_digit" translatable="false">123</string>
+    <string name="design_basic_symbol_integer" translatable="false">+1</string>
+    <string name="design_basic_symbol_float" translatable="false">1.0</string>
+    <string name="design_basic_symbol_space" translatable="false">[ ]</string>
+    <string name="design_basic_symbol_uppercase" translatable="false">A</string>
+    <string name="design_basic_symbol_lowercase" translatable="false">a</string>
+    <string name="design_basic_symbol_symbol" translatable="false">#</string>
+    <string name="design_regex_label_word" translatable="false">\\w</string>
+    <string name="design_regex_label_word_many" translatable="false">\\w+</string>
+    <string name="design_regex_label_digit" translatable="false">\\d</string>
+    <string name="design_regex_label_digit_many" translatable="false">\\d+</string>
+    <string name="design_regex_label_decimal_short" translatable="false">\\d.\\d</string>
+    <string name="design_regex_label_decimal" translatable="false">\\d+\\.\\d+</string>
+    <string name="design_regex_label_decimal_preview" translatable="false">\\d+\\.\\d+...</string>
+    <string name="design_regex_label_space" translatable="false">\\s</string>
+    <string name="design_regex_label_consonant_preview" translatable="false">b-df...</string>
+    <string name="design_regex_label_symbol_preview" translatable="false">[!-/:-@...]</string>
+    <string name="design_escape_label_ask" translatable="false">?</string>
+    <string name="design_escape_label_backslash" translatable="false">\\</string>
+    <string name="design_escape_label_bracket_close" translatable="false">}</string>
+    <string name="design_escape_label_bracket" translatable="false">{</string>
+    <string name="design_escape_label_dollar" translatable="false">$</string>
+    <string name="design_escape_label_dot" translatable="false">.</string>
+    <string name="design_escape_label_or" translatable="false">|</string>
+    <string name="design_escape_label_parenthesis_close" translatable="false">)</string>
+    <string name="design_escape_label_parenthesis" translatable="false">(</string>
+    <string name="design_escape_label_square_bracket_close" translatable="false">]</string>
+    <string name="design_escape_label_square_bracket" translatable="false">[</string>
+    <string name="design_escape_label_star" translatable="false">*</string>
+    <string name="design_escape_label_up" translatable="false">^</string>
+    <string name="design_escape_regex_label_ask" translatable="false">\\?</string>
+    <string name="design_escape_regex_label_backslash" translatable="false">\\\\</string>
+    <string name="design_escape_regex_label_bracket_close" translatable="false">\\}</string>
+    <string name="design_escape_regex_label_bracket" translatable="false">\\{</string>
+    <string name="design_escape_regex_label_dollar" translatable="false">\\$</string>
+    <string name="design_escape_regex_label_dot" translatable="false">\\.</string>
+    <string name="design_escape_regex_label_or" translatable="false">\\|</string>
+    <string name="design_escape_regex_label_parenthesis_close" translatable="false">\\)</string>
+    <string name="design_escape_regex_label_parenthesis" translatable="false">\\(</string>
+    <string name="design_escape_regex_label_square_bracket_close" translatable="false">\\]</string>
+    <string name="design_escape_regex_label_square_bracket" translatable="false">\\[</string>
+    <string name="design_escape_regex_label_star" translatable="false">\\*</string>
+    <string name="design_escape_regex_label_up" translatable="false">\\^</string>
     <string name="analyze">Analyze</string>
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
@@ -246,7 +330,7 @@
     <string name="collaborate_tasks_myself">Planning, development and design of the App</string>
     <string name="collaborate_translators">Translators</string>
     <string name="collaborate_russian_language"><![CDATA[<<Russian>>]]></string>
-    <string name="bitcoinAddressDonation" translatable="false">bc1qv5qyvxgnfe4frs92xjza9ld2rmjme40l0t2zhj</string>
+    <string name="bitcoinAddressDonation" translatable="false">bc1qwl7tna46kcll8czf3lnnmsrzvq00ah8j5sveut</string>
     <string name="image_of_russia">Image of Russia</string>
     <string name="image_of_portugal">Image of Portugal</string>
     <string name="regexh_translations_web" translatable="false">https://github.com/sky10p/regexh-contributions</string>
@@ -268,6 +352,7 @@
     <string name="preference_show_bottom_bar_with_keyboard_summary">In search, you can hide the bottom bar to have more space for the keyboard. Enable this option if you prefer to keep the bar visible while typing.</string>
     <string name="execution_time">%1$.2f ms</string>
     <string name="nameErrorExplain">Error</string>
+    <string name="regex_error_reported_index">Reported near index %1$d</string>
     <string name="preference_language_title">Language</string>
     <string name="preference_language_summary">Select your preferred language for the app interface.</string>
     <string name="mnu_choose_regex">Choose Regex</string>
@@ -279,14 +364,30 @@
     <string name="preference_characters_code_summary">Choose your preferred character code (ascii or unicode)</string>
     <string name="mnu_benchmark">Benchmark</string>
     <string name="benchmark_process_completed">Process Completed</string>
-    <string name="benchmark_execution_info">Executed a total of %d cycles in %d seconds</string>
+    <string name="benchmark_execution_info">Executed a total of %1$d cycles in %2$d seconds</string>
     <string name="benchmark_performance_summary">Performance Summary</string>
-    <string name="benchmark_average_time">Average Time: %.4f %s</string>
-    <string name="benchmark_execution_min">Fastest: %.4f %s</string>
-    <string name="benchmark_execution_max">Slowest: %.4f %s</string>
+    <string name="benchmark_average_time">Average Time: %1$.4f %2$s</string>
+    <string name="benchmark_execution_min">Fastest: %1$.4f %2$s</string>
+    <string name="benchmark_execution_max">Slowest: %1$.4f %2$s</string>
     <string name="benchmark_execution_note">Note: These values depend on system conditions and may vary slightly.</string>
     <string name="benchmark_dismiss">Dismiss</string>
     <string name="mnu_choose_text_file">Open text file</string>
     <string name="error_reading_text_file_content">Error reading text content file</string>
     <string name="error_file_access_android_11">Due to Android restrictions, to import .rgx files on Android 11 or higher, use the import button inside the app.</string>
+    <string name="preference_copy_separator_title">Copy separator</string>
+    <string name="preference_copy_separator_summary">Choose the separator used when copying multiple matched results</string>
+    <string name="save_replacement_check">Save replacement text</string>
+    <string name="preference_category_support">Support</string>
+    <string name="preference_donation_title">Donation (BTC)</string>
+    <string name="preference_donation_summary">Make a voluntary BTC donation</string>
+
+    <string name="donation_title">Donation</string>
+    <string name="donation_subtitle">Voluntary BTC donation</string>
+    <string name="donation_body">If you find the app useful, you can support its development with a voluntary BTC donation. This is optional and does not unlock features or modify the app.</string>
+    <string name="donation_qr_label">QR code</string>
+    <string name="donation_btc_address_label">BTC address</string>
+    <string name="donation_copy_address">Copy address</string>
+    <string name="donation_copy_done">Address copied</string>
+
+    <string name="collaborate_donation_cta">You can also support the project with a voluntary BTC donation.</string>
 </resources>

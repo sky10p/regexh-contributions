@@ -19,6 +19,8 @@
         <item>Âncoras</item>
         <item>^ Início da linha</item>
         <item>$ Fim da linha</item>
+        <item>\\b Limite de palavra</item>
+        <item>\\B Não limite de palavra</item>
         <item>Caracteres de Escape(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -75,5 +77,15 @@
     <string-array name="settings_options_characters_code">
         <item>ascii</item>
         <item>unicode</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator_alias">
+        <item>Sem separador (concatenado)</item>
+        <item>Espaço</item>
+        <item>Quebra de linha</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator">
+        <item>none</item>
+        <item>space</item>
+        <item>linebreak</item>
     </string-array>
 </resources>

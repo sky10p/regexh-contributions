@@ -19,6 +19,8 @@
         <item>アンカー</item>
         <item>^ 行の開始</item>
         <item>$ 行の終了</item>
+        <item>\\b 単語境界</item>
+        <item>\\B 非単語境界</item>
         <item>エスケープされた文字(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -77,6 +79,15 @@
         <item>ascii</item>
         <item>unicode</item>
     </string-array>
-
+    <string-array name="settings_options_copy_separator_alias">
+        <item>区切り文字なし（連結）</item>
+        <item>スペース</item>
+        <item>改行</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator">
+        <item>none</item>
+        <item>space</item>
+        <item>linebreak</item>
+    </string-array>
 
 </resources>

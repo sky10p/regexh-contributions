@@ -19,6 +19,8 @@
         <item>Anchors</item>
         <item>^ Start of line</item>
         <item>$ End of line</item>
+        <item>\\b Word boundary</item>
+        <item>\\B Non-Word boundary</item>
         <item>Characters Escaped(\\)</item>
         <item>([{\^-=$!</item>
         <item>|]})?*+.\</item>
@@ -40,8 +42,8 @@
         <item>0</item>
         <item>8</item>
         <item>15</item>
-        <item>18</item>
-        <item>21</item>
+        <item>20</item>
+        <item>23</item>
     </array>
 
     <array name="settings_options_theme_alias">
@@ -82,5 +84,15 @@
     <string-array name="settings_options_characters_code">
         <item>ascii</item>
         <item>unicode</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator_alias">
+        <item>No separator (concatenated)</item>
+        <item>Space</item>
+        <item>Line break</item>
+    </string-array>
+    <string-array name="settings_options_copy_separator">
+        <item>none</item>
+        <item>space</item>
+        <item>linebreak</item>
     </string-array>
 </resources>

@@ -302,6 +302,7 @@
     <string name="execution_time">%1$.2f ms</string>
     <string name="nameErrorExplain">Error</string>
     <string name="regex_error_reported_index">Reportado cerca del índice %1$d</string>
+    <string name="regex_error_empty_negated_character_class_description">[^] no es una clase de caracteres válida. Después de ^, añade al menos un carácter o rango para excluir, por ejemplo [^a] o [^a-z].</string>
     <string name="preference_language_title">Idioma</string>
     <string name="preference_language_summary">Selecciona tu idioma preferido para la interfaz de la aplicación.</string>
     <string name="mnu_choose_regex">Elige Regex</string>

@@ -297,6 +297,7 @@
     <string name="execution_time">%1$.2f ms</string>
     <string name="nameErrorExplain">错误</string>
     <string name="regex_error_reported_index">报告在索引 %1$d 附近</string>
+    <string name="regex_error_empty_negated_character_class_description">[^] 不是有效的字符类。请在 ^ 后至少添加一个要排除的字符或范围，例如 [^a] 或 [^a-z]。</string>
     <string name="preference_language_title">语言</string>
     <string name="preference_language_summary">选择应用程序界面的首选语言.</string>
     <string name="mnu_choose_regex">选择Regex</string>

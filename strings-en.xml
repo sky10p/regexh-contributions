@@ -353,6 +353,7 @@
     <string name="execution_time">%1$.2f ms</string>
     <string name="nameErrorExplain">Error</string>
     <string name="regex_error_reported_index">Reported near index %1$d</string>
+    <string name="regex_error_empty_negated_character_class_description">[^] is not a valid character class. After ^, add at least one character or range to exclude, for example [^a] or [^a-z].</string>
     <string name="preference_language_title">Language</string>
     <string name="preference_language_summary">Select your preferred language for the app interface.</string>
     <string name="mnu_choose_regex">Choose Regex</string>

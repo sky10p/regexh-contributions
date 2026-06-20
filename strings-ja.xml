@@ -303,6 +303,7 @@
     <string name="execution_time">%1$.2f ms</string>
     <string name="nameErrorExplain">エラー</string>
     <string name="regex_error_reported_index">インデックス %1$d 付近として報告</string>
+    <string name="regex_error_empty_negated_character_class_description">[^] は有効な文字クラスではありません。^ の後に、除外する文字または範囲を少なくとも 1 つ追加してください。例: [^a] または [^a-z]。</string>
     <string name="preference_language_title">言語</string>
     <string name="preference_language_summary">アプリのインターフェース言語を選択してください。</string>
     <string name="mnu_choose_regex">选择 Regex</string>

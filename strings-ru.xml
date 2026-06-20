@@ -303,6 +303,7 @@
     <string name="execution_time">%1$.2f мс</string>
     <string name="nameErrorExplain">Ошибка</string>
     <string name="regex_error_reported_index">Сообщено около индекса %1$d</string>
+    <string name="regex_error_empty_negated_character_class_description">[^] не является допустимым классом символов. После ^ добавьте хотя бы один символ или диапазон для исключения, например [^a] или [^a-z].</string>
     <string name="preference_language_title">"Язык "</string>
     <string name="preference_language_summary">Выберите предпочитаемый язык интерфейса приложения.</string>
     <string name="mnu_choose_regex">Выберите Regex</string>

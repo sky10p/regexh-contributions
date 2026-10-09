@@ -252,7 +252,7 @@
     <string name="regex_explain_wordboundary_description">Соответствует граничной позиции слова между символом слова и символом или позицией без слова (начало / конец строки).</string>
     <string name="regex_explain_notwordboundary_description">Соответствует любой позиции, которая не является границей слов.</string>
     <string name="regex_explain_notwordboundary_name">не граница слов</string>
-    <string name="switch_button_multiline">многострочный</string>
+    <string name="switch_button_multiline">Многострочный</string>
     <string name="open_keyboard">Открытая клавиатура</string>
     <string name="policyPrivacy">Политика конфиденциальности</string>
     <string name="default_term_ip_description">Соответствует допустимому ip-адресу</string>

@@ -238,6 +238,8 @@
     <string name="details">细节</string>
     <string name="regex_explain_unicode_description">匹配十六进制中代码为 \\1 = \\2 的字符。</string>
     <string name="regex_explain_unicode_name">Unicode 转义</string>
+    <string name="regex_explain_unsupported_name">正则表达式标记</string>
+    <string name="regex_explain_unsupported_description">此部分是有效的，但 RegexH 还不能详细解释它。</string>
     <string name="dialog_text_size_change_title">改变文本大小</string>
     <string name="mnu_change_text_size">改变文本大小</string>
     <string name="txtTextSize">%1$dsp</string>
@@ -335,4 +337,20 @@
     <string name="donation_copy_done">地址已复制</string>
 
     <string name="collaborate_donation_cta">你也可以通过自愿的 BTC 捐赠来支持该项目。</string>
+    <string name="regex_error_unclosed_character_class">字符类未闭合。请检查每个 [ 是否都有对应的 ]。</string>
+    <string name="regex_error_invalid_character_class">字符类无效。请检查 [...] 内的括号和转义字符。</string>
+    <string name="regex_error_invalid_character_range">字符范围无效。范围起点不能大于终点。</string>
+    <string name="regex_error_unclosed_group">分组未闭合。请检查每个左括号是否都有对应的右括号。</string>
+    <string name="regex_error_unmatched_closing_group">右括号没有对应的左括号。请删除它或添加对应的左括号。</string>
+    <string name="regex_error_invalid_group_syntax">分组语法无效。请检查分组的开头。</string>
+    <string name="regex_error_invalid_named_group">命名分组无效。分组名必须符合 Java regex 的有效格式。</string>
+    <string name="regex_error_invalid_escape">转义序列无效。请检查反斜杠及其后的字符。</string>
+    <string name="regex_error_dangling_escape">转义未完成。模式以没有转义任何字符的反斜杠结尾。</string>
+    <string name="regex_error_dangling_meta_character">元字符缺少作用对象。此符号前面需要有内容。</string>
+    <string name="regex_error_illegal_repetition">重复语法无效。请检查 {} 内的数字或语法。</string>
+    <string name="regex_error_unclosed_repetition">重复语法未闭合。请检查 { 是否有对应的 }。</string>
+    <string name="regex_error_invalid_backreference">反向引用无效。请检查被引用的分组是否存在。</string>
+    <string name="regex_error_invalid_lookbehind">lookbehind 无效。Java 要求 lookbehind 表达式具有有效长度。</string>
+    <string name="regex_error_unclosed_quoted_sequence">引用序列未闭合。请检查是否有结束标记。</string>
+    <string name="regex_error_unknown">正则表达式无效。请检查高亮部分。</string>
 </resources>

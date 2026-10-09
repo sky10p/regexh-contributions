@@ -289,6 +289,8 @@
     <string name="details">Details</string>
     <string name="regex_explain_unicode_description">Matches the character with code \\1 = \\2 in hexadecimal.</string>
     <string name="regex_explain_unicode_name">Unicode Escape</string>
+    <string name="regex_explain_unsupported_name">Regex token</string>
+    <string name="regex_explain_unsupported_description">This part is valid, but RegexH cannot explain it in detail yet.</string>
     <string name="dialog_text_size_change_title">Change text size</string>
     <string name="mnu_change_text_size">Change text size</string>
     <string name="txtTextSize">%1$dsp</string>
@@ -391,4 +393,20 @@
     <string name="donation_copy_done">Address copied</string>
 
     <string name="collaborate_donation_cta">You can also support the project with a voluntary BTC donation.</string>
+    <string name="regex_error_unclosed_character_class">Unclosed character class. Check that every [ has a matching ].</string>
+    <string name="regex_error_invalid_character_class">Invalid character class. Check the brackets and escaped characters inside [...].</string>
+    <string name="regex_error_invalid_character_range">Invalid character range. The start of a range must not be greater than the end.</string>
+    <string name="regex_error_unclosed_group">Unclosed group. Check that every opening parenthesis has a matching closing parenthesis.</string>
+    <string name="regex_error_unmatched_closing_group">Unmatched closing parenthesis. Remove it or add a matching opening parenthesis.</string>
+    <string name="regex_error_invalid_group_syntax">Invalid group syntax. Check how the group starts.</string>
+    <string name="regex_error_invalid_named_group">Invalid named group. Group names must use a valid Java regex group name.</string>
+    <string name="regex_error_invalid_escape">Invalid escape sequence. Check the backslash and the character after it.</string>
+    <string name="regex_error_dangling_escape">Dangling escape. The pattern ends with a backslash that does not escape anything.</string>
+    <string name="regex_error_dangling_meta_character">Dangling meta character. This symbol needs something before it.</string>
+    <string name="regex_error_illegal_repetition">Invalid repetition. Check the numbers or syntax inside {}.</string>
+    <string name="regex_error_unclosed_repetition">Unclosed repetition. Check that { has a matching }.</string>
+    <string name="regex_error_invalid_backreference">Invalid backreference. Check that the referenced group exists.</string>
+    <string name="regex_error_invalid_lookbehind">Invalid lookbehind. Java requires lookbehind expressions to have a valid length.</string>
+    <string name="regex_error_unclosed_quoted_sequence">Unclosed quoted sequence. Check that the quoted sequence has an ending marker.</string>
+    <string name="regex_error_unknown">The regex is invalid. Check the highlighted part.</string>
 </resources>

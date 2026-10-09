@@ -236,6 +236,8 @@
     <string name="details">詳細</string>
     <string name="regex_explain_unicode_name">Unicodeエスケープ</string>
     <string name="regex_explain_unicode_description">\\1 = \\2の16進数コードを持つ文字と一致します。</string>
+    <string name="regex_explain_unsupported_name">正規表現トークン</string>
+    <string name="regex_explain_unsupported_description">この部分は有効ですが、RegexH はまだ詳細を説明できません。</string>
     <string name="mnu_change_text_size">文字サイズ</string>
     <string name="txtTextSize">%1$dsp</string>
     <string name="dialog_text_size_change_title">テキストサイズを変更</string>
@@ -341,5 +343,20 @@
     <string name="donation_copy_done">アドレスをコピーしました</string>
 
     <string name="collaborate_donation_cta">任意でBTC寄付によりプロジェクトをサポートすることもできます。</string>
+    <string name="regex_error_unclosed_character_class">文字クラスが閉じられていません。各 [ に対応する ] があるか確認してください。</string>
+    <string name="regex_error_invalid_character_class">文字クラスが無効です。[...] 内の角括弧とエスケープ文字を確認してください。</string>
+    <string name="regex_error_invalid_character_range">文字範囲が無効です。範囲の開始は終了より大きくできません。</string>
+    <string name="regex_error_unclosed_group">グループが閉じられていません。各開き括弧に対応する閉じ括弧があるか確認してください。</string>
+    <string name="regex_error_unmatched_closing_group">対応する開き括弧がない閉じ括弧です。削除するか開き括弧を追加してください。</string>
+    <string name="regex_error_invalid_group_syntax">グループ構文が無効です。グループの開始部分を確認してください。</string>
+    <string name="regex_error_invalid_named_group">名前付きグループが無効です。グループ名は Java regex の有効な形式にしてください。</string>
+    <string name="regex_error_invalid_escape">エスケープシーケンスが無効です。バックスラッシュと次の文字を確認してください。</string>
+    <string name="regex_error_dangling_escape">エスケープが未完了です。パターンが何もエスケープしないバックスラッシュで終わっています。</string>
+    <string name="regex_error_dangling_meta_character">メタ文字が単独で使われています。この記号の前に対象が必要です。</string>
+    <string name="regex_error_illegal_repetition">繰り返しが無効です。{} 内の数値または構文を確認してください。</string>
+    <string name="regex_error_unclosed_repetition">繰り返しが閉じられていません。{ に対応する } があるか確認してください。</string>
+    <string name="regex_error_invalid_backreference">後方参照が無効です。参照先のグループが存在するか確認してください。</string>
+    <string name="regex_error_invalid_lookbehind">lookbehind が無効です。Java では lookbehind 式に有効な長さが必要です。</string>
+    <string name="regex_error_unclosed_quoted_sequence">引用シーケンスが閉じられていません。終了マーカーがあるか確認してください。</string>
+    <string name="regex_error_unknown">正規表現が無効です。強調表示された部分を確認してください。</string>
 </resources>
-

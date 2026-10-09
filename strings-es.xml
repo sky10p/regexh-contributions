@@ -236,6 +236,8 @@
     <string name="details">Detalles</string>
     <string name="regex_explain_unicode_name">Unicode Escape</string>
     <string name="regex_explain_unicode_description">Coincide con el carácter con código \\1 = \\2 en hexadecimal.</string>
+    <string name="regex_explain_unsupported_name">Token de regex</string>
+    <string name="regex_explain_unsupported_description">Esta parte es válida, pero RegexH aún no puede explicarla en detalle.</string>
     <string name="mnu_change_text_size">Tamaño letra</string>
     <string name="txtTextSize">%1$dsp</string>
     <string name="dialog_text_size_change_title">Cambiar tamaño de texto</string>
@@ -340,4 +342,20 @@
     <string name="donation_copy_done">Dirección copiada</string>
 
     <string name="collaborate_donation_cta">También puedes apoyar el proyecto con una donación voluntaria en BTC.</string>
+    <string name="regex_error_unclosed_character_class">Clase de caracteres sin cerrar. Comprueba que cada [ tenga su ].</string>
+    <string name="regex_error_invalid_character_class">Clase de caracteres no válida. Revisa los corchetes y los caracteres escapados dentro de [...].</string>
+    <string name="regex_error_invalid_character_range">Rango de caracteres no válido. El inicio del rango no puede ser mayor que el final.</string>
+    <string name="regex_error_unclosed_group">Grupo sin cerrar. Comprueba que cada paréntesis de apertura tenga su cierre.</string>
+    <string name="regex_error_unmatched_closing_group">Paréntesis de cierre sin apertura. Elimínalo o añade un paréntesis de apertura.</string>
+    <string name="regex_error_invalid_group_syntax">Sintaxis de grupo no válida. Revisa cómo empieza el grupo.</string>
+    <string name="regex_error_invalid_named_group">Grupo con nombre no válido. Los nombres de grupo deben seguir el formato válido de Java regex.</string>
+    <string name="regex_error_invalid_escape">Secuencia de escape no válida. Revisa la barra invertida y el carácter siguiente.</string>
+    <string name="regex_error_dangling_escape">Escape incompleto. El patrón termina con una barra invertida que no escapa nada.</string>
+    <string name="regex_error_dangling_meta_character">Metacarácter suelto. Este símbolo necesita algo antes.</string>
+    <string name="regex_error_illegal_repetition">Repetición no válida. Revisa los números o la sintaxis dentro de {}.</string>
+    <string name="regex_error_unclosed_repetition">Repetición sin cerrar. Comprueba que { tenga su }.</string>
+    <string name="regex_error_invalid_backreference">Referencia de grupo no válida. Comprueba que el grupo referenciado exista.</string>
+    <string name="regex_error_invalid_lookbehind">Lookbehind no válido. Java necesita que las expresiones lookbehind tengan una longitud válida.</string>
+    <string name="regex_error_unclosed_quoted_sequence">Secuencia entrecomillada sin cerrar. Comprueba que la secuencia tenga un cierre.</string>
+    <string name="regex_error_unknown">La expresión regular no es válida. Revisa la parte resaltada.</string>
 </resources>

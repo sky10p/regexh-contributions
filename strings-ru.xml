@@ -235,6 +235,8 @@
     <string name="details">Подробно</string>
     <string name="regex_explain_unicode_description">Соответствует символу с кодом \\1 = \\2 в шестнадцатеричном формате.</string>
     <string name="regex_explain_unicode_name">Игнорировать Юникод</string>
+    <string name="regex_explain_unsupported_name">Токен regex</string>
+    <string name="regex_explain_unsupported_description">Эта часть допустима, но RegexH пока не может подробно ее объяснить.</string>
     <string name="dialog_text_size_change_title">Изменить размер текста</string>
     <string name="mnu_change_text_size">Изменить размер текста</string>
     <string name="txtTextSize">%1$dsp</string>
@@ -252,7 +254,7 @@
     <string name="regex_explain_wordboundary_description">Соответствует граничной позиции слова между символом слова и символом или позицией без слова (начало / конец строки).</string>
     <string name="regex_explain_notwordboundary_description">Соответствует любой позиции, которая не является границей слов.</string>
     <string name="regex_explain_notwordboundary_name">не граница слов</string>
-    <string name="switch_button_multiline">многострочный</string>
+    <string name="switch_button_multiline">Многострочный</string>
     <string name="open_keyboard">Открытая клавиатура</string>
     <string name="policyPrivacy">Политика конфиденциальности</string>
     <string name="default_term_ip_description">Соответствует допустимому ip-адресу</string>
@@ -340,4 +342,20 @@
     <string name="donation_copy_address">Копировать адрес</string>
     <string name="donation_copy_done">Адрес скопирован</string>
     <string name="collaborate_donation_cta">Вы также можете поддержать проект добровольным пожертвованием в BTC.</string>
+    <string name="regex_error_unclosed_character_class">Незакрытый класс символов. Проверьте, что каждой [ соответствует ].</string>
+    <string name="regex_error_invalid_character_class">Недопустимый класс символов. Проверьте скобки и экранированные символы внутри [...].</string>
+    <string name="regex_error_invalid_character_range">Недопустимый диапазон символов. Начало диапазона не может быть больше конца.</string>
+    <string name="regex_error_unclosed_group">Незакрытая группа. Проверьте, что у каждой открывающей скобки есть закрывающая.</string>
+    <string name="regex_error_unmatched_closing_group">Закрывающая скобка без открытия. Удалите ее или добавьте открывающую скобку.</string>
+    <string name="regex_error_invalid_group_syntax">Недопустимый синтаксис группы. Проверьте начало группы.</string>
+    <string name="regex_error_invalid_named_group">Недопустимая именованная группа. Имя группы должно соответствовать формату Java regex.</string>
+    <string name="regex_error_invalid_escape">Недопустимая escape-последовательность. Проверьте обратную косую черту и следующий символ.</string>
+    <string name="regex_error_dangling_escape">Незавершенное экранирование. Шаблон заканчивается обратной косой чертой без символа после нее.</string>
+    <string name="regex_error_dangling_meta_character">Одиночный метасимвол. Перед этим символом должно быть выражение.</string>
+    <string name="regex_error_illegal_repetition">Недопустимое повторение. Проверьте числа или синтаксис внутри {}.</string>
+    <string name="regex_error_unclosed_repetition">Незакрытое повторение. Проверьте, что у { есть }.</string>
+    <string name="regex_error_invalid_backreference">Недопустимая обратная ссылка. Проверьте, что указанная группа существует.</string>
+    <string name="regex_error_invalid_lookbehind">Недопустимый lookbehind. Java требует допустимую длину выражения lookbehind.</string>
+    <string name="regex_error_unclosed_quoted_sequence">Незакрытая quoted-последовательность. Проверьте, что у последовательности есть конец.</string>
+    <string name="regex_error_unknown">Регулярное выражение недопустимо. Проверьте выделенную часть.</string>
 </resources>
